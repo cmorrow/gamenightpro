@@ -51,7 +51,8 @@ onMounted(async () => {
     fonts: [{ cssSrc: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap' }],
     appearance: appearance(),
   })
-  const payment = elements.create('payment', { layout: 'tabs' })
+  // The card fields include country and postal code, which Stripe Tax uses for the tax rate.
+  const payment = elements.create('payment', { layout: 'tabs', fields: { billingDetails: { address: { country: 'auto', postalCode: 'auto' } } } })
   payment.on('ready', () => { ready.value = true })
   payment.mount(host.value)
 })

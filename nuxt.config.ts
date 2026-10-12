@@ -30,7 +30,8 @@ export default defineNuxtConfig({
     // Public site URL for Stripe redirects, e.g. https://app.gamenightpro.com. Falls back to the request host.
     siteUrl: '',
     // Billing is off until these are set (NUXT_STRIPE_SECRET_KEY, NUXT_STRIPE_WEBHOOK_SECRET, NUXT_STRIPE_PRICE_ID).
-    stripe: { secretKey: '', webhookSecret: '', priceId: '' },
+    // NUXT_STRIPE_AUTOMATIC_TAX=true turns on Stripe Tax; set it only after Tax is set up in the Stripe Dashboard.
+    stripe: { secretKey: '', webhookSecret: '', priceId: '', automaticTax: false },
     public: {
       // Safe to expose: Stripe.js needs it in the browser to show the card form (NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY).
       stripePublishableKey: '',

@@ -64,7 +64,7 @@ Self-serve hosts pay on our own pages: $24.99/month with a 7-day free trial, car
 | Billing page, route guard | `app/pages/account/billing.vue`, `app/middleware/auth.global.ts` |
 | Access rules; plan display values | `shared/utils/billing.ts`; `shared/utils/plan.ts` |
 
-Set `NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `NUXT_STRIPE_SECRET_KEY`, `NUXT_STRIPE_PRICE_ID` and `NUXT_STRIPE_WEBHOOK_SECRET` (and `NUXT_SITE_URL` in Azure). Until the first three are set, billing is off and nobody is gated. Webhook events to enable: `customer.subscription.created`, `.updated`, `.deleted`, `.paused`, `.resumed`.
+Set `NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `NUXT_STRIPE_SECRET_KEY`, `NUXT_STRIPE_PRICE_ID` and `NUXT_STRIPE_WEBHOOK_SECRET` (and `NUXT_SITE_URL` in Azure). Until the first three are set, billing is off and nobody is gated. Stripe Tax is opt-in with `NUXT_STRIPE_AUTOMATIC_TAX=true` (uses the card's country and postal code). Webhook events to enable: `customer.subscription.created`, `.updated`, `.deleted`, `.paused`, `.resumed`.
 
 Local testing with the Stripe CLI:
 
