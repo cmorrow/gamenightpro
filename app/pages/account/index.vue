@@ -15,7 +15,10 @@ const { theme, setTheme } = useTheme()
           <div><dt class="text-xs uppercase tracking-wider text-subtle">Email</dt><dd class="text-fg-strong">{{ user?.email }}</dd></div>
           <div><dt class="text-xs uppercase tracking-wider text-subtle">Role</dt><dd class="capitalize text-fg-strong">{{ user?.role }}</dd></div>
         </dl>
-        <NuxtLink to="/account/password" class="btn-outline mt-6"><AppIcon name="key" class="h-4 w-4" />Change password</NuxtLink>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <NuxtLink to="/account/password" class="btn-outline"><AppIcon name="key" class="h-4 w-4" />Change password</NuxtLink>
+          <NuxtLink to="/account/billing" class="btn-ghost"><AppIcon name="card" class="h-4 w-4" />Billing</NuxtLink>
+        </div>
       </AppPanel>
 
       <AppPanel title="Appearance" subtitle="Saved on this device.">

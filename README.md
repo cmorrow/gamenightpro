@@ -51,4 +51,25 @@ Not yet: self sign-up, email verification and forgot-password emails (need Azure
    - `NUXT_STORAGE_DRIVER=azure-storage-table`
    - `NUXT_AZURE_STORAGE_CONNECTION_STRING`: from the Storage Account's Access keys
 
+## Billing (Stripe)
+
+Self-serve hosts sign up through Stripe Checkout: $24.99/month with a 7-day free trial, card collected up front, billed automatically when the trial ends. Admin-created accounts are not billed.
+
+| Piece | Files |
+|---|---|
+| Checkout (new sign-up or existing user), Customer Portal, status | `server/api/billing/checkout.post.ts`, `portal.post.ts`, `status.get.ts` |
+| Webhook (keeps subscription status in sync) | `server/api/billing/webhook.post.ts` → `https://<site>/api/billing/webhook` |
+| Billing page, route guard | `app/pages/account/billing.vue`, `app/middleware/auth.global.ts` |
+| Plan display values, access rules | `shared/utils/billing.ts` |
+
+Set `NUXT_STRIPE_SECRET_KEY`, `NUXT_STRIPE_PRICE_ID` and `NUXT_STRIPE_WEBHOOK_SECRET` (and `NUXT_SITE_URL` in Azure). Until they're set, billing is off and nobody is gated. Webhook events to enable: `checkout.session.completed`, `customer.subscription.created`, `.updated`, `.deleted`, `.paused`, `.resumed`.
+
+Local testing with the Stripe CLI:
+
+```bash
+stripe listen --forward-to localhost:3000/api/billing/webhook   # prints the whsec_ secret for .env
+```
+
+Test card `4242 4242 4242 4242`, any future date, any CVC. `stripe trigger customer.subscription.trial_will_end` and Stripe test clocks let you fast-forward past the trial.
+
 Switching to Cosmos DB later only changes `server/plugins/storage.ts`.

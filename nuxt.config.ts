@@ -27,6 +27,10 @@ export default defineNuxtConfig({
     seedAdminPassword: '',
     storageDriver: '',
     azureStorageConnectionString: '',
+    // Public site URL for Stripe redirects, e.g. https://app.gamenightpro.com. Falls back to the request host.
+    siteUrl: '',
+    // Billing is off until these are set (NUXT_STRIPE_SECRET_KEY, NUXT_STRIPE_WEBHOOK_SECRET, NUXT_STRIPE_PRICE_ID).
+    stripe: { secretKey: '', webhookSecret: '', priceId: '' },
     session: {
       name: 'cp-session',
       maxAge: 60 * 60 * 24 * 30, // 30 days, so a host who signed in at home can run an event offline

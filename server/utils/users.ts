@@ -1,4 +1,5 @@
 import type { Role } from '#shared/types/auth'
+import type { BillingRecord } from './billing'
 
 export interface UserRecord {
   id: string
@@ -10,6 +11,8 @@ export interface UserRecord {
   mustChangePassword: boolean
   failedLogins: number
   lockedUntil: number | null
+  /** Set for self-serve sign-ups. Admin-created accounts have none and are not billed. */
+  billing?: BillingRecord
   createdAt: string
   updatedAt: string
 }
@@ -71,6 +74,7 @@ export async function createUser(input: { email: string, name: string, role: Rol
 }
 
 export async function deleteUser(user: UserRecord) {
+  if (user.billing) await removeBilling(user.billing)
   await db().removeItem(emailKey(user.email))
   await db().removeItem(userKey(user.id))
 }
@@ -83,6 +87,7 @@ export function toSessionUser(user: UserRecord) {
     role: user.role,
     tenantId: user.tenantId,
     mustChangePassword: user.mustChangePassword,
+    billingStatus: billingStatusOf(user),
   }
 }
 
