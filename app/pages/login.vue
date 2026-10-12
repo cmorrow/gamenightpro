@@ -1,5 +1,5 @@
 <script setup lang="ts">
-definePageMeta({ public: true })
+definePageMeta({ public: true, guestOnly: true })
 useHead({ title: 'Sign in' })
 
 const { brand } = useAppConfig()
@@ -35,7 +35,7 @@ async function submit() {
     <ThemeToggle class="absolute right-4 top-4 md:right-6 md:top-5" />
     <div class="w-full max-w-sm">
       <div class="mb-8 text-center">
-        <h1 class="wordmark text-4xl">{{ brand.appName }}</h1>
+        <NuxtLink to="/"><h1 class="wordmark text-4xl">{{ brand.appName }}</h1></NuxtLink>
         <p class="mt-2 text-muted">{{ brand.tagline }}</p>
       </div>
       <form class="panel space-y-4" @submit.prevent="submit">
@@ -50,7 +50,7 @@ async function submit() {
         <p v-if="error" class="alert-error" role="alert">{{ error }}</p>
         <button class="btn-primary w-full" type="submit" :disabled="pending">{{ pending ? 'Signing in…' : 'Sign in' }}</button>
       </form>
-      <p class="mt-5 text-center text-sm text-subtle">Need an account? Ask your admin to add you.</p>
+      <p class="mt-5 text-center text-sm text-subtle">New here? <NuxtLink to="/signup" class="font-semibold text-accent-fg hover:underline">Start your free trial</NuxtLink></p>
     </div>
   </div>
 </template>
