@@ -76,7 +76,7 @@ async function go(endpoint: '/api/billing/checkout' | '/api/billing/portal') {
       <p v-if="loadError || error" class="alert-error">{{ error || apiErrorMessage(loadError) }}</p>
 
       <AppPanel v-if="billing" title="Your plan" :subtitle="STATUS_LABEL[billing.status]">
-        <template #icon><AppIcon name="card" class="h-5 w-5" /></template>
+        <template #icon><AppIcon name="settings" class="h-5 w-5" /></template>
         <p class="text-fg">{{ nextStep }}</p>
         <p v-if="!billing.configured && billing.status !== 'exempt'" class="mt-3 text-sm text-muted">
           Online billing isn't switched on yet. Contact an admin.

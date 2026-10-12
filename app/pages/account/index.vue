@@ -17,7 +17,7 @@ const { theme, setTheme } = useTheme()
         </dl>
         <div class="mt-6 flex flex-wrap gap-3">
           <NuxtLink to="/account/password" class="btn-outline"><AppIcon name="key" class="h-4 w-4" />Change password</NuxtLink>
-          <NuxtLink to="/account/billing" class="btn-ghost"><AppIcon name="card" class="h-4 w-4" />Billing</NuxtLink>
+          <NuxtLink to="/account/billing" class="btn-ghost"><AppIcon name="settings" class="h-4 w-4" />Billing</NuxtLink>
         </div>
       </AppPanel>
 
