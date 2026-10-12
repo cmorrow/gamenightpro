@@ -38,27 +38,33 @@ async function submit() {
 </script>
 
 <template>
-  <div class="mx-auto max-w-sm" :class="forced ? 'mt-16' : ''">
-    <h1 class="text-2xl font-bold">{{ forced ? 'Set your password' : 'Change password' }}</h1>
-    <p v-if="forced" class="mt-1 text-slate-500 dark:text-slate-400">You signed in with a temporary password. Choose your own to continue.</p>
-    <form class="card mt-6 space-y-4" @submit.prevent="submit">
-      <input type="email" :value="user?.email" autocomplete="username" class="hidden" readonly>
-      <div>
-        <label class="label" for="current">{{ forced ? 'Temporary password' : 'Current password' }}</label>
-        <input id="current" v-model="currentPassword" class="input" type="password" autocomplete="current-password" required>
+  <AppHeader v-if="!forced" title="Change password" subtitle="Use at least 10 characters." />
+  <div :class="forced ? 'relative flex flex-1 items-center justify-center px-4 py-12' : 'page'">
+    <ThemeToggle v-if="forced" class="absolute right-4 top-4 md:right-6 md:top-5" />
+    <div class="w-full max-w-sm" :class="forced ? '' : 'mx-auto'">
+      <div v-if="forced" class="mb-6 text-center">
+        <h1 class="text-2xl font-bold text-fg-strong">Set your password</h1>
+        <p class="mt-1 text-muted">You signed in with a temporary password. Choose your own to continue.</p>
       </div>
-      <div>
-        <label class="label" for="new">New password</label>
-        <input id="new" v-model="newPassword" class="input" type="password" autocomplete="new-password" minlength="10" required>
-        <p class="mt-1 text-xs text-slate-500">At least 10 characters.</p>
-      </div>
-      <div>
-        <label class="label" for="confirm">Confirm new password</label>
-        <input id="confirm" v-model="confirmPassword" class="input" type="password" autocomplete="new-password" required>
-      </div>
-      <p v-if="error" class="error" role="alert">{{ error }}</p>
-      <p v-if="done" class="rounded-lg bg-green-50 px-3 py-2 text-sm text-green-700 dark:bg-green-950 dark:text-green-300">Password updated.</p>
-      <button class="btn w-full" type="submit" :disabled="pending">{{ pending ? 'Saving…' : 'Save password' }}</button>
-    </form>
+      <form class="panel space-y-4" @submit.prevent="submit">
+        <input type="email" :value="user?.email" autocomplete="username" class="hidden" readonly>
+        <div>
+          <label class="label" for="current">{{ forced ? 'Temporary password' : 'Current password' }}</label>
+          <input id="current" v-model="currentPassword" class="input" type="password" autocomplete="current-password" required>
+        </div>
+        <div>
+          <label class="label" for="new">New password</label>
+          <input id="new" v-model="newPassword" class="input" type="password" autocomplete="new-password" minlength="10" required>
+          <p class="mt-1.5 text-xs text-subtle">At least 10 characters.</p>
+        </div>
+        <div>
+          <label class="label" for="confirm">Confirm new password</label>
+          <input id="confirm" v-model="confirmPassword" class="input" type="password" autocomplete="new-password" required>
+        </div>
+        <p v-if="error" class="alert-error" role="alert">{{ error }}</p>
+        <p v-if="done" class="alert-success">Password updated.</p>
+        <button class="btn-primary w-full" type="submit" :disabled="pending">{{ pending ? 'Saving…' : 'Save password' }}</button>
+      </form>
+    </div>
   </div>
 </template>

@@ -18,6 +18,15 @@ On first sign-in with no users, an admin is created:
 
 You must choose a new password on first sign-in. Data is stored as files in `.data/db` (git-ignored); delete that folder to start over.
 
+## Look and feel
+
+Dark theme by default, matching the Music Bingo app (near-black background, purple accents, purple-to-pink gradient buttons). A light theme is optional: the settings menu or the Account page switches it, and the choice is saved per browser.
+
+- Colors are tokens in `app/assets/css/main.css` (`:root` for dark, `[data-theme="light"]` for light). Use the semantic classes (`bg-panel`, `text-muted`, `border-line`, `text-accent-fg`…) rather than raw colors so both themes work.
+- Each section renders its own `<AppHeader title subtitle>` with action buttons in its default slot (like Music Bingo's Print Cards / Audience Screen), plus a shared settings menu.
+- `<AppPanel title subtitle>` with an `#icon` slot gives the numbered-step panel look.
+- Shared buttons: `btn-primary` (gradient), `btn-outline`, `btn-ghost`, `btn-icon`.
+
 ## What's here
 
 | Area | Files |

@@ -4,22 +4,34 @@ const { user } = useUserSession()
 
 // Placeholders until each game module is plugged in.
 const games = [
-  { name: 'Music Bingo', description: 'Cards built from your playlists. Play songs from your own player.', to: '/music-bingo' },
-  { name: 'Bingo', description: 'Classic number bingo with printable cards.', to: null as string | null },
-  { name: 'Trivia', description: 'Rounds, questions and a live scoreboard.', to: null },
-]
+  { name: 'Music Bingo', icon: 'music', description: 'Cards built from your playlists. Play songs from your own player.', to: '/music-bingo' },
+  { name: 'Bingo', icon: 'grid', description: 'Classic number bingo with printable cards.', to: null },
+  { name: 'Trivia', icon: 'trivia', description: 'Rounds, questions and a live scoreboard.', to: null },
+] as const
 </script>
 
 <template>
-  <div>
-    <h1 class="text-2xl font-bold">Welcome, {{ user?.name }}</h1>
-    <p class="mt-1 text-slate-500 dark:text-slate-400">Pick a game to host.</p>
-    <div class="mt-6 grid gap-4 sm:grid-cols-3">
-      <component :is="g.to ? resolveComponent('NuxtLink') : 'div'" v-for="g in games" :key="g.name" :to="g.to ?? undefined" class="card" :class="g.to ? 'transition hover:border-brand-500' : ''">
-        <h2 class="text-lg font-semibold">{{ g.name }}</h2>
-        <p class="mt-1 text-sm text-slate-500 dark:text-slate-400">{{ g.description }}</p>
-        <p v-if="!g.to" class="mt-4 text-xs font-medium uppercase tracking-wide text-slate-400">Coming soon</p>
+  <AppHeader :title="`Welcome, ${user?.name ?? ''}`" subtitle="Pick a game to host." />
+  <main class="page">
+    <div class="grid gap-6 md:grid-cols-3">
+      <component
+        :is="g.to ? resolveComponent('NuxtLink') : 'div'"
+        v-for="g in games"
+        :key="g.name"
+        :to="g.to ?? undefined"
+        class="panel group flex flex-col gap-4"
+        :class="g.to ? 'transition hover:border-accent/60' : 'opacity-70'"
+      >
+        <div class="flex h-12 w-12 items-center justify-center rounded-full bg-accent-soft text-accent-fg">
+          <AppIcon :name="g.icon" class="h-6 w-6" />
+        </div>
+        <div>
+          <h2 class="text-lg font-bold text-fg-strong md:text-xl">{{ g.name }}</h2>
+          <p class="mt-1 text-sm text-muted">{{ g.description }}</p>
+        </div>
+        <p v-if="!g.to" class="mt-auto text-xs font-semibold uppercase tracking-wider text-subtle">Coming soon</p>
+        <p v-else class="mt-auto text-sm font-semibold text-accent-fg">Open →</p>
       </component>
     </div>
-  </div>
+  </main>
 </template>

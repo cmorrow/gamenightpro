@@ -62,44 +62,57 @@ async function removeUser(id: string, email: string) {
 </script>
 
 <template>
-  <div>
-    <h1 class="text-2xl font-bold">Users</h1>
+  <AppHeader title="Users" subtitle="Add hosts and manage who can sign in." />
+  <main class="page">
+    <div class="grid gap-6 lg:grid-cols-[minmax(0,420px)_1fr] lg:gap-8">
+      <AppPanel title="Add a user" subtitle="They'll set their own password at first sign-in.">
+        <template #icon><AppIcon name="plus" class="h-5 w-5" /></template>
+        <form class="space-y-4" @submit.prevent="createUser">
+          <div><label class="label" for="name">Name</label><input id="name" v-model="form.name" class="input" required></div>
+          <div><label class="label" for="email">Email</label><input id="email" v-model="form.email" class="input" type="email" required></div>
+          <div>
+            <label class="label" for="role">Role</label>
+            <select id="role" v-model="form.role" class="input"><option value="host">Host</option><option value="admin">Admin</option></select>
+          </div>
+          <div>
+            <label class="label" for="pw">Temporary password</label>
+            <div class="flex gap-2">
+              <input id="pw" v-model="form.password" class="input font-mono" required minlength="10">
+              <button type="button" class="btn-ghost" @click="generatePassword">New</button>
+            </div>
+          </div>
+          <p v-if="error" class="alert-error" role="alert">{{ error }}</p>
+          <p v-if="notice" class="alert-success">{{ notice }}</p>
+          <button class="btn-primary w-full" type="submit" :disabled="pending">Add user</button>
+        </form>
+      </AppPanel>
 
-    <form class="card mt-6 grid gap-4 sm:grid-cols-2" @submit.prevent="createUser">
-      <h2 class="font-semibold sm:col-span-2">Add a user</h2>
-      <div><label class="label" for="name">Name</label><input id="name" v-model="form.name" class="input" required></div>
-      <div><label class="label" for="email">Email</label><input id="email" v-model="form.email" class="input" type="email" required></div>
-      <div>
-        <label class="label" for="role">Role</label>
-        <select id="role" v-model="form.role" class="input"><option value="host">Host</option><option value="admin">Admin</option></select>
-      </div>
-      <div>
-        <label class="label" for="pw">Temporary password</label>
-        <div class="flex gap-2"><input id="pw" v-model="form.password" class="input font-mono" required minlength="10"><button type="button" class="btn-ghost" @click="generatePassword">New</button></div>
-      </div>
-      <p v-if="error" class="error sm:col-span-2" role="alert">{{ error }}</p>
-      <p v-if="notice" class="rounded-lg bg-green-50 px-3 py-2 text-sm text-green-700 sm:col-span-2 dark:bg-green-950 dark:text-green-300">{{ notice }}</p>
-      <div class="sm:col-span-2"><button class="btn" type="submit" :disabled="pending">Add user</button></div>
-    </form>
-
-    <div class="card mt-6 overflow-x-auto p-0">
-      <table class="w-full text-left text-sm">
-        <thead class="border-b border-slate-200 text-slate-500 dark:border-slate-700">
-          <tr><th class="p-3">Name</th><th class="p-3">Email</th><th class="p-3">Role</th><th class="p-3">Status</th><th class="p-3" /></tr>
-        </thead>
-        <tbody>
-          <tr v-for="u in users" :key="u.id" class="border-b border-slate-100 last:border-0 dark:border-slate-800">
-            <td class="p-3">{{ u.name }}</td>
-            <td class="p-3">{{ u.email }}</td>
-            <td class="p-3 capitalize">{{ u.role }}</td>
-            <td class="p-3">{{ u.mustChangePassword ? 'Temporary password' : 'Active' }}</td>
-            <td class="whitespace-nowrap p-3 text-right">
-              <button class="btn-ghost text-xs" @click="resetPassword(u.id, u.email)">Reset password</button>
-              <button v-if="u.id !== me?.id" class="btn-ghost text-xs text-red-600" @click="removeUser(u.id, u.email)">Delete</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <AppPanel :title="`${users.length} ${users.length === 1 ? 'user' : 'users'}`" subtitle="Everyone who can sign in.">
+        <template #icon><AppIcon name="users" class="h-5 w-5" /></template>
+        <div class="-mx-5 overflow-x-auto md:-mx-6">
+          <table class="w-full text-left text-sm">
+            <thead class="border-b border-line text-xs uppercase tracking-wider text-subtle">
+              <tr><th class="px-5 py-3 md:px-6">Name</th><th class="px-3 py-3">Email</th><th class="px-3 py-3">Role</th><th class="px-3 py-3">Status</th><th class="px-5 md:px-6" /></tr>
+            </thead>
+            <tbody>
+              <tr v-for="u in users" :key="u.id" class="border-b border-line last:border-0">
+                <td class="px-5 py-3 font-medium text-fg-strong md:px-6">{{ u.name }}</td>
+                <td class="px-3 py-3 text-muted">{{ u.email }}</td>
+                <td class="px-3 py-3 capitalize">{{ u.role }}</td>
+                <td class="px-3 py-3">
+                  <span class="rounded-full px-2.5 py-1 text-xs font-medium" :class="u.mustChangePassword ? 'bg-amber-500/15 text-amber-500' : 'bg-success/15 text-success'">
+                    {{ u.mustChangePassword ? 'Temporary password' : 'Active' }}
+                  </span>
+                </td>
+                <td class="whitespace-nowrap px-5 py-3 text-right md:px-6">
+                  <button class="rounded-lg px-2.5 py-1.5 text-xs font-semibold text-accent-fg hover:bg-accent/10" @click="resetPassword(u.id, u.email)">Reset password</button>
+                  <button v-if="u.id !== me?.id" class="rounded-lg px-2.5 py-1.5 text-xs font-semibold text-danger hover:bg-danger/10" @click="removeUser(u.id, u.email)">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </AppPanel>
     </div>
-  </div>
+  </main>
 </template>
