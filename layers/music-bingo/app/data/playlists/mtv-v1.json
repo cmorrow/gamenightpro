@@ -1,0 +1,212 @@
+{
+  "title": "MTV Favorites",
+  "id": "mtv-v1",
+  "image": "assets/img/playlists/mtv-v1.png",
+  "spotifyPlaylistUrl": "",
+  "tracksDataUrl": "src/data/playlists/mtv-v1.json",
+  "tracks": [
+    {
+      "name": "I Want My Mtv",
+      "artist": "guruburgess",
+      "doNotPrint": true
+    },
+    {
+      "name": "Girls Just Want To Have Fun",
+      "artist": "Cyndi Lauper"
+    },
+    {
+      "name": "Lucky Star",
+      "artist": "Madonna"
+    },
+    {
+      "name": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "name": "Money For Nothing",
+      "artist": "Dire Straits"
+    },
+    {
+      "name": "Sledgehammer",
+      "artist": "Peter Gabriel"
+    },
+    {
+      "name": "Once in a Lifetime",
+      "artist": "Talking Heads"
+    },
+    {
+      "name": "Mickey",
+      "artist": "Toni Basil"
+    },
+    {
+      "name": "Take On Me",
+      "artist": "a"
+    },
+    {
+      "name": "...Baby One More Time",
+      "artist": "Britney Spears"
+    },
+    {
+      "name": "I Want It That Way",
+      "artist": "Backstreet Boys"
+    },
+    {
+      "name": "Mediate",
+      "artist": "INXS"
+    },
+    {
+      "name": "90's MTV Commercial",
+      "artist": "Walk Robot",
+      "doNotPrint": true
+    },
+    {
+      "name": "Video Killed The Radio Star",
+      "artist": "The Buggles"
+    },
+    {
+      "name": "Sweet Dreams",
+      "artist": "Eurythmics, Annie Lennox, Dave Stewart"
+    },
+    {
+      "name": "Vogue",
+      "artist": "Madonna"
+    },
+    {
+      "name": "Whip It",
+      "artist": "Devo"
+    },
+    {
+      "name": "All Star",
+      "artist": "Smash Mouth"
+    },
+    {
+      "name": "Karma Chameleon",
+      "artist": "Culture Club"
+    },
+    {
+      "name": "Another One Bites the Dust",
+      "artist": "Queen"
+    },
+    {
+      "name": "Zombie",
+      "artist": "The Cranberries"
+    },
+    {
+      "name": "Ironic",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "name": "We Didn't Start The Fire",
+      "artist": "Billy Joel"
+    },
+    {
+      "name": "Beat It",
+      "artist": "Michael Jackson"
+    },
+    {
+      "name": "Down Under",
+      "artist": "Men At Work"
+    },
+    {
+      "name": "Buddy Holly",
+      "artist": "Weezer"
+    },
+    {
+      "name": "Addicted To Love",
+      "artist": "Robert Palmer"
+    },
+    {
+      "name": "Bust A Move",
+      "artist": "Young MC"
+    },
+    {
+      "name": "MTV",
+      "artist": "Tate Smith",
+      "doNotPrint": true
+    },
+    {
+      "name": "Jump",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "Puttin' On The Ritz",
+      "artist": "Taco"
+    },
+    {
+      "name": "Stray Cat Strut",
+      "artist": "Stray Cats"
+    },
+    {
+      "name": "Shiny Happy People",
+      "artist": "R.E.M."
+    },
+    {
+      "name": "Centerfold",
+      "artist": "The J. Geils Band"
+    },
+    {
+      "name": "Rock Me Amadeus",
+      "artist": "Falco"
+    },
+    {
+      "name": "Who Will Save Your Soul",
+      "artist": "Jewel"
+    },
+    {
+      "name": "Manic Monday",
+      "artist": "The Bangles"
+    },
+    {
+      "name": "Straight Up",
+      "artist": "Paula Abdul"
+    },
+    {
+      "name": "Keep Your Hands To Yourself",
+      "artist": "Georgia Satellites"
+    },
+    {
+      "name": "Don't Come Around Here No More",
+      "artist": "Tom Petty And The Heartbreakers"
+    },
+    {
+      "name": "Nothing's Gonna Stop Us Now",
+      "artist": "Starship"
+    },
+    {
+      "name": "Push It",
+      "artist": "Salt"
+    },
+    {
+      "name": "Love Shack",
+      "artist": "The B"
+    },
+    {
+      "name": "Ice Ice Baby",
+      "artist": "Vanilla Ice"
+    },
+    {
+      "name": "Mama Said Knock You Out",
+      "artist": "LL COOL J"
+    },
+    {
+      "name": "Loser",
+      "artist": "Beck"
+    },
+    {
+      "name": "Now That We Found Love",
+      "artist": "Heavy D & The Boyz"
+    },
+    {
+      "name": "Stay",
+      "artist": "Lisa Loeb Official"
+    },
+    {
+      "name": "Never There",
+      "artist": "CAKE"
+    },
+    {
+      "name": "Gangsta's Paradise",
+      "artist": "Coolio"
+    }
+  ]
+}

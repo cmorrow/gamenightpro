@@ -1,0 +1,165 @@
+{
+  "title": "Big Hair Bands",
+  "id": "hair-bands-bingo",
+  "image": "assets/img/playlists/big-hair-bands.jpg",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6yLMpStfWIz8GuAp2mW90R",
+  "tracksDataUrl": "src/data/playlists/hair-bands-bingo.json",
+  "tracks": [
+    {
+      "name": "Once Bitten Twice Shy",
+      "artist": "Great White"
+    },
+    {
+      "name": "We're Not Gonna Take It",
+      "artist": "Twisted Sister"
+    },
+    {
+      "name": "Cherry Pie",
+      "artist": "Warrant"
+    },
+    {
+      "name": "Iron Man - 2012 - Remaster",
+      "artist": "Black Sabbath"
+    },
+    {
+      "name": "Pour Some Sugar On Me - Remastered 2017",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Girls, Girls, Girls",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "I Can't Drive 55",
+      "artist": "Sammy Hagar"
+    },
+    {
+      "name": "Jump - 2015 Remaster",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "Every Rose Has Its Thorn - 2003 Remaster",
+      "artist": "Poison"
+    },
+    {
+      "name": "Why Can't This Be Love",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "Love of a Lifetime (2024 Remaster)",
+      "artist": "Firehouse"
+    },
+    {
+      "name": "You Give Love A Bad Name",
+      "artist": "Bon Jovi"
+    },
+    {
+      "name": "18 and Life",
+      "artist": "Skid Row"
+    },
+    {
+      "name": "The Final Countdown",
+      "artist": "Europe"
+    },
+    {
+      "name": "Never Say Goodbye",
+      "artist": "Bon Jovi"
+    },
+    {
+      "name": "Round and Round",
+      "artist": "Ratt"
+    },
+    {
+      "name": "Heaven",
+      "artist": "Warrant"
+    },
+    {
+      "name": "Hungry",
+      "artist": "Winger"
+    },
+    {
+      "name": "Nobody's Fool",
+      "artist": "Cinderella"
+    },
+    {
+      "name": "Metal Health (Bang Your Head) (Re-Recorded / Remastered)",
+      "artist": "Quiet Riot"
+    },
+    {
+      "name": "Panama - 2015 Remaster",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "Talk Dirty To Me",
+      "artist": "Poison"
+    },
+    {
+      "name": "Rock Of Ages",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Rock You Like A Hurricane",
+      "artist": "Scorpions"
+    },
+    {
+      "name": "Photograph",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Here I Go Again",
+      "artist": "Whitesnake"
+    },
+    {
+      "name": "I Wanna Rock",
+      "artist": "Twisted Sister"
+    },
+    {
+      "name": "Paradise City",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "Home Sweet Home",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Poison",
+      "artist": "Alice Cooper"
+    },
+    {
+      "name": "Smokin' In The Boys Room",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Hot for Teacher - 2015 Remaster",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "artist": "AC/DC"
+    },
+    {
+      "name": "Patience",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "Animal - Remastered 2017",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Hysteria",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Dr. Feelgood",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Don't Tell Me You Love Me",
+      "artist": "Night Ranger"
+    }
+  ]
+}

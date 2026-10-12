@@ -1,0 +1,213 @@
+{
+  "title": "80s Hits",
+  "id": "80s-hits",
+  "image": "assets/img/playlists/80s-Hits.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/00APhQaSyhJrSkiURhMxwN",
+  "tracksDataUrl": "src/data/playlists/80s-hits.json",
+  "tracks": [
+    {
+      "name": "Don't You (Forget About Me)",
+      "artist": "Simple Minds"
+    },
+    {
+      "name": "Karma Chameleon - Remastered 2002",
+      "artist": "Culture Club"
+    },
+    {
+      "name": "Heart Of Glass",
+      "artist": "Blondie"
+    },
+    {
+      "name": "Shout",
+      "artist": "Tears For Fears"
+    },
+    {
+      "name": "The Power Of Love",
+      "artist": "Huey Lewis & The News"
+    },
+    {
+      "name": "Hold the Line",
+      "artist": "TOTO"
+    },
+    {
+      "name": "Call Me",
+      "artist": "Blondie"
+    },
+    {
+      "name": "More Than a Feeling",
+      "artist": "Boston"
+    },
+    {
+      "name": "I Love Rock 'N Roll",
+      "artist": "Joan Jett & the Blackhearts"
+    },
+    {
+      "name": "We Built This City",
+      "artist": "Starship"
+    },
+    {
+      "name": "Livin' On A Prayer",
+      "artist": "Bon Jovi"
+    },
+    {
+      "name": "Escape (The Pina Colada Song)",
+      "artist": "Rupert Holmes"
+    },
+    {
+      "name": "Maniac - From \"Flashdance\"",
+      "artist": "Michael Sembello"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "artist": "AC/DC"
+    },
+    {
+      "name": "Maneater",
+      "artist": "Daryl Hall & John Oates"
+    },
+    {
+      "name": "Don't You Want Me",
+      "artist": "The Human League"
+    },
+    {
+      "name": "Don't Stop Believin' (2022 Remaster)",
+      "artist": "Journey"
+    },
+    {
+      "name": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Rebel Yell",
+      "artist": "Billy Idol"
+    },
+    {
+      "name": "Abracadabra",
+      "artist": "Steve Miller Band"
+    },
+    {
+      "name": "Roxanne",
+      "artist": "The Police"
+    },
+    {
+      "name": "Losing My Religion",
+      "artist": "R.E.M."
+    },
+    {
+      "name": "Your Love",
+      "artist": "The Outfield"
+    },
+    {
+      "name": "Time After Time",
+      "artist": "Cyndi Lauper"
+    },
+    {
+      "name": "Sweet Dreams (Are Made of This) - 2005 Remaster",
+      "artist": "Eurythmics"
+    },
+    {
+      "name": "Jessie's Girl",
+      "artist": "Rick Springfield"
+    },
+    {
+      "name": "Purple Rain",
+      "artist": "Prince"
+    },
+    {
+      "name": "Material Girl - 2024 Remaster",
+      "artist": "Madonna"
+    },
+    {
+      "name": "When Doves Cry",
+      "artist": "Prince"
+    },
+    {
+      "name": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen"
+    },
+    {
+      "name": "Gypsy",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "name": "Drive",
+      "artist": "The Cars"
+    },
+    {
+      "name": "I Can Dream About You",
+      "artist": "Dan Hartman"
+    },
+    {
+      "name": "Jack & Diane",
+      "artist": "John Mellencamp"
+    },
+    {
+      "name": "Addicted To Love",
+      "artist": "Robert Palmer"
+    },
+    {
+      "name": "Hysteria",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Back To Life",
+      "artist": "Soul II Soul"
+    },
+    {
+      "name": "Every Rose Has Its Thorn - 2003 Remaster",
+      "artist": "Poison"
+    },
+    {
+      "name": "Raspberry Beret",
+      "artist": "Prince"
+    },
+    {
+      "name": "I Won't Back Down",
+      "artist": "Tom Petty"
+    },
+    {
+      "name": "Get Outta My Dreams, Get Into My Car",
+      "artist": "Billy Ocean"
+    },
+    {
+      "name": "Caribbean Queen (No More Love On the Run)",
+      "artist": "Billy Ocean"
+    },
+    {
+      "name": "Free Fallin'",
+      "artist": "Tom Petty"
+    },
+    {
+      "name": "The Lion Sleeps Tonight",
+      "artist": "Tight Fit"
+    },
+    {
+      "name": "Sledgehammer - 2012 Remaster",
+      "artist": "Peter Gabriel"
+    },
+    {
+      "name": "St. Elmos Fire (Man in Motion)",
+      "artist": "John Parr"
+    },
+    {
+      "name": "The Boys Of Summer - Remastered 2024",
+      "artist": "Don Henley"
+    },
+    {
+      "name": "Let's Dance - 2002 Remaster",
+      "artist": "David Bowie"
+    },
+    {
+      "name": "Hungry Like the Wolf - 2009 Remaster",
+      "artist": "Duran Duran"
+    },
+    {
+      "name": "She Drives Me Crazy",
+      "artist": "Fine Young Cannibals"
+    },
+    {
+      "name": "Take on Me",
+      "artist": "a-ha"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "title": "Disco",
+  "id": "disco",
+  "image": "assets/img/playlists/Disco-playlist.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1gF3L1McuCFDeYnQ16PzvU",
+  "tracksDataUrl": "src/data/playlists/disco.json",
+  "tracks": [
+    {
+      "name": "Let's Groove",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Play That Funky Music",
+      "artist": "Wild Cherry"
+    },
+    {
+      "name": "Brick House",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Get Down Tonight - 2004 Remaster",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "September",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Ymca",
+      "artist": "Village People"
+    },
+    {
+      "name": "Ladies Night",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "name": "Shake Your Groove Thing",
+      "artist": "Peaches & Herb"
+    },
+    {
+      "name": "(Shake, Shake, Shake) Shake Your Booty - 45 Version",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Ring My Bell",
+      "artist": "Anita Ward"
+    },
+    {
+      "name": "That's the Way (I Like It) - 2004 Remaster",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "You Should Be Dancing",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Boogie Shoes - 2004 Remaster",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Boogie Wonderland (with The Emotions)",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "We Are Family - 1995 Remaster",
+      "artist": "Sister Sledge"
+    },
+    {
+      "name": "Disco Inferno",
+      "artist": "The Trammps"
+    },
+    {
+      "name": "Give It To Me Baby",
+      "artist": "Rick James"
+    },
+    {
+      "name": "Le Freak",
+      "artist": "CHIC"
+    },
+    {
+      "name": "You Sexy Thing",
+      "artist": "Hot Chocolate"
+    },
+    {
+      "name": "It's Raining Men",
+      "artist": "The Weather Girls"
+    },
+    {
+      "name": "Celebration",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "name": "I'm Every Woman",
+      "artist": "Chaka Khan"
+    },
+    {
+      "name": "Disco Inferno - Edit",
+      "artist": "The Trammps"
+    },
+    {
+      "name": "Last Dance",
+      "artist": "Donna Summer"
+    },
+    {
+      "name": "Super Freak",
+      "artist": "Rick James"
+    },
+    {
+      "name": "Get Down On It",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "name": "Bad Girls",
+      "artist": "Donna Summer"
+    },
+    {
+      "name": "Ring My Bell",
+      "artist": "Anita Ward"
+    },
+    {
+      "name": "Shining Star",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Best of My Love",
+      "artist": "The Emotions"
+    },
+    {
+      "name": "Hot Stuff",
+      "artist": "Donna Summer"
+    },
+    {
+      "name": "Good Times",
+      "artist": "CHIC"
+    },
+    {
+      "name": "The Hustle",
+      "artist": "Van McCoy"
+    },
+    {
+      "name": "Upside Down",
+      "artist": "Diana Ross"
+    },
+    {
+      "name": "Stayin Alive",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "And the Beat Goes On",
+      "artist": "The Whispers"
+    },
+    {
+      "name": "Let It Whip",
+      "artist": "Dazz Band"
+    }
+  ]
+}

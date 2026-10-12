@@ -1,0 +1,229 @@
+{
+  "title": "90s Hits",
+  "id": "90s-hits",
+  "image": "assets/img/playlists/90s-hits.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5R0nJF3lOAl5D1poyk4cG2",
+  "tracksDataUrl": "src/data/playlists/90s-hits.json",
+  "tracks": [
+    {
+      "name": "Bye Bye Bye",
+      "artist": "*NSYNC"
+    },
+    {
+      "name": "...Baby One More Time",
+      "artist": "Britney Spears"
+    },
+    {
+      "name": "Say My Name",
+      "artist": "Destiny's Child"
+    },
+    {
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana"
+    },
+    {
+      "name": "Zombie",
+      "artist": "The Cranberries"
+    },
+    {
+      "name": "Gangsta's Paradise",
+      "artist": "Coolio"
+    },
+    {
+      "name": "All The Small Things",
+      "artist": "blink-182"
+    },
+    {
+      "name": "Genie In a Bottle",
+      "artist": "Christina Aguilera"
+    },
+    {
+      "name": "Livin' la Vida Loca",
+      "artist": "Ricky Martin"
+    },
+    {
+      "name": "Losing My Religion",
+      "artist": "R.E.M."
+    },
+    {
+      "name": "Kiss Me",
+      "artist": "Sixpence None The Richer"
+    },
+    {
+      "name": "All Star",
+      "artist": "Smash Mouth"
+    },
+    {
+      "name": "Jump",
+      "artist": "Kris Kross"
+    },
+    {
+      "name": "Insane in the Brain",
+      "artist": "Cypress Hill"
+    },
+    {
+      "name": "Never There",
+      "artist": "CAKE"
+    },
+    {
+      "name": "Vogue",
+      "artist": "Madonna"
+    },
+    {
+      "name": "Gettin' Jiggy Wit It",
+      "artist": "Will Smith"
+    },
+    {
+      "name": "Groove Is in the Heart",
+      "artist": "Deee-Lite"
+    },
+    {
+      "name": "Mr. Jones",
+      "artist": "Counting Crows"
+    },
+    {
+      "name": "Ironic",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "name": "Ice Ice Baby",
+      "artist": "Vanilla Ice"
+    },
+    {
+      "name": "Indian Outlaw",
+      "artist": "Tim McGraw"
+    },
+    {
+      "name": "Chattahoochee",
+      "artist": "Alan Jackson"
+    },
+    {
+      "name": "I Like It, I Love It",
+      "artist": "Tim McGraw"
+    },
+    {
+      "name": "Life's a Dance",
+      "artist": "John Michael Montgomery"
+    },
+    {
+      "name": "Fancy",
+      "artist": "Reba McEntire"
+    },
+    {
+      "name": "Song of the South",
+      "artist": "Alabama"
+    },
+    {
+      "name": "Come Original",
+      "artist": "311"
+    },
+    {
+      "name": "Jump Around",
+      "artist": "House Of Pain"
+    },
+    {
+      "name": "O.P.P",
+      "artist": "Naughty By Nature"
+    },
+    {
+      "name": "Bust A Move",
+      "artist": "Young MC"
+    },
+    {
+      "name": "Regulate",
+      "artist": "Warren G"
+    },
+    {
+      "name": "Waterfalls",
+      "artist": "TLC"
+    },
+    {
+      "name": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers"
+    },
+    {
+      "name": "No Scrubs",
+      "artist": "TLC"
+    },
+    {
+      "name": "Oops!...I Did It Again",
+      "artist": "Britney Spears"
+    },
+    {
+      "name": "High and Dry",
+      "artist": "Radiohead"
+    },
+    {
+      "name": "Baby Got Back",
+      "artist": "Sir Mix-A-Lot"
+    },
+    {
+      "name": "Pump Up The Jam",
+      "artist": "Technotronic"
+    },
+    {
+      "name": "Poison",
+      "artist": "Bell Biv DeVoe"
+    },
+    {
+      "name": "Lump",
+      "artist": "The Presidents Of The United States Of America"
+    },
+    {
+      "name": "Been Caught Stealing",
+      "artist": "Jane's Addiction"
+    },
+    {
+      "name": "Follow You Down",
+      "artist": "Gin Blossoms"
+    },
+    {
+      "name": "Semi-Charmed Life",
+      "artist": "Third Eye Blind"
+    },
+    {
+      "name": "Only Wanna Be With You",
+      "artist": "Hootie & The Blowfish"
+    },
+    {
+      "name": "Rhythm Is a Dancer",
+      "artist": "SNAP!"
+    },
+    {
+      "name": "Hand in My Pocket",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "name": "I'm Too Sexy",
+      "artist": "Right Said Fred"
+    },
+    {
+      "name": "One Week",
+      "artist": "Barenaked Ladies"
+    },
+    {
+      "name": "Unbelievable",
+      "artist": "EMF"
+    },
+    {
+      "name": "I Wanna Sex You Up",
+      "artist": "Color Me Badd"
+    },
+    {
+      "name": "Now That We Found Love",
+      "artist": "Heavy D & The Boyz"
+    },
+    {
+      "name": "Friday I'm in Love",
+      "artist": "The Cure"
+    },
+    {
+      "name": "Man! I Feel Like A Woman!",
+      "artist": "Shania Twain"
+    },
+    {
+      "name": "Just A Girl",
+      "artist": "No Doubt"
+    }
+  ]
+}

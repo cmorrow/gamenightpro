@@ -1,0 +1,193 @@
+{
+  "title": "Theme Songs and Soundtracks",
+  "id": "theme-songs",
+  "image": "assets/img/playlists/theme-songs.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/32elr4hQynIqFx3nS2WKqp",
+  "tracksDataUrl": "src/data/playlists/theme-songs.json",
+  "tracks": [
+    {
+      "name": "Who's the Boss",
+      "artist": "The New South Bay Orchestra"
+    },
+    {
+      "name": "Theme (From \"The Facts of Life\")",
+      "artist": "Jen Sygit"
+    },
+    {
+      "name": "With A Little Help From My Friends",
+      "artist": "Joe Cocker"
+    },
+    {
+      "name": "Theme (From \"The Love Boat\")",
+      "artist": "Keith Ferreira"
+    },
+    {
+      "name": "Golden Girls (Thank You for Being a Friend)",
+      "artist": "TV Tunesters"
+    },
+    {
+      "name": "The Jeffersons",
+      "artist": "The TV Theme Players"
+    },
+    {
+      "name": "\"Cheers\" Theme (Full Length Record)",
+      "artist": "Gary Portnoy"
+    },
+    {
+      "name": "Roseanne Theme",
+      "artist": "The Hit Co."
+    },
+    {
+      "name": "Chariots Of Fire",
+      "artist": "Vangelis"
+    },
+    {
+      "name": "Stranger Things",
+      "artist": "The Theme System"
+    },
+    {
+      "name": "Theme from the Walking Dead",
+      "artist": "Bear McCreary"
+    },
+    {
+      "name": "Breaking Bad Main Theme",
+      "artist": "Geek Music"
+    },
+    {
+      "name": "I'll Be There for You - TV Version with Dialogue",
+      "artist": "The Rembrandts"
+    },
+    {
+      "name": "Family Guy Main Title - From \"Family Guy\"",
+      "artist": "Cast - Family Guy"
+    },
+    {
+      "name": "MASH - The TV Theme",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Mission Impossible",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Knight Rider",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "The Fresh Prince of Bel-Air",
+      "artist": "DJ Jazzy Jeff & The Fresh Prince"
+    },
+    {
+      "name": "Jeopardy! Main Theme (From \"Jeopardy!\")",
+      "artist": "Geek Music"
+    },
+    {
+      "name": "The Office Theme (from The Office)",
+      "artist": "Southern Creek Players"
+    },
+    {
+      "name": "Hedwig's Theme",
+      "artist": "John Williams"
+    },
+    {
+      "name": "You've Got a Friend in Me",
+      "artist": "Randy Newman"
+    },
+    {
+      "name": "Star Wars (Main Theme)",
+      "artist": "John Williams"
+    },
+    {
+      "name": "Theme from Superman - Concert Version",
+      "artist": "John Williams"
+    },
+    {
+      "name": "The James Bond Theme (From \"Dr. No\")",
+      "artist": "John Barry"
+    },
+    {
+      "name": "He's a Pirate",
+      "artist": "Klaus Badelt"
+    },
+    {
+      "name": "Full House",
+      "artist": "The Hollywood Prime Time Orchestra"
+    },
+    {
+      "name": "The Lone Ranger Theme",
+      "artist": "John Morgan Orquesta"
+    },
+    {
+      "name": "Main Theme: The Addams Family - from \"The Addams Family\" Original Motion Picture Soundtrack",
+      "artist": "Vic Mizzy and His Orchestra and Chorus"
+    },
+    {
+      "name": "Theme from Beverly Hills, 90210",
+      "artist": "John Davis"
+    },
+    {
+      "name": "\"Sanford & Son Theme\" - NBC-TV (The Streetbeater)",
+      "artist": "Quincy Jones"
+    },
+    {
+      "name": "Charlie's Angels",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Happy Days (Theme from ''Happy Days'')",
+      "artist": "Pratt & McClain"
+    },
+    {
+      "name": "Seinfeld",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Miami Vice Theme - From \"Miami Vice\" Soundtrack",
+      "artist": "Jan Hammer"
+    },
+    {
+      "name": "The Brady Brunch Main Title - De \"La Tribu de los Brady\"",
+      "artist": "Sherwood Schwartz"
+    },
+    {
+      "name": "The Muppet Show Theme",
+      "artist": "The Muppets"
+    },
+    {
+      "name": "Dallas",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Magnum PI Theme",
+      "artist": "Mount Royal Orchestra"
+    },
+    {
+      "name": "Wonder Woman",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Love Boat",
+      "artist": "The South Bay Groovy System"
+    },
+    {
+      "name": "The Twilight Zone",
+      "artist": "Jerry Goldsmith"
+    },
+    {
+      "name": "Spider Man",
+      "artist": "TV Themes"
+    },
+    {
+      "name": "Little House on the Prairie",
+      "artist": "The Bewitched"
+    },
+    {
+      "name": "Theme from \"The Dukes of Hazzard\" (Good Ol' Boys)",
+      "artist": "Waylon Jennings"
+    },
+    {
+      "name": "Believe It or Not (Theme from \"Greatest American Hero\")",
+      "artist": "Joey Scarbury"
+    }
+  ]
+}

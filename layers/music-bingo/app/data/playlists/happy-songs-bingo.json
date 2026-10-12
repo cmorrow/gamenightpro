@@ -1,0 +1,133 @@
+{
+  "title": "Happy Songs",
+  "id": "happy-songs-bingo",
+  "image": "assets/img/playlists/happy-songs.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2nSMEVkhKr1rgqEG8EerD0",
+  "tracksDataUrl": "src/data/playlists/happy-songs-bingo.json",
+  "tracks": [
+    {
+      "name": "Joy To The World",
+      "artist": "Three Dog Night"
+    },
+    {
+      "name": "Banana Boat (Day-O)",
+      "artist": "Harry Belafonte"
+    },
+    {
+      "name": "Happy",
+      "artist": "Pharrell Williams"
+    },
+    {
+      "name": "Mambo No. 5 (A Little Bit of...)",
+      "artist": "Lou Bega"
+    },
+    {
+      "name": "I Got You (I Feel Good)",
+      "artist": "James Brown"
+    },
+    {
+      "name": "Hooked On A Feeling",
+      "artist": "Blue Swede"
+    },
+    {
+      "name": "Hey Ya!",
+      "artist": "Outkast"
+    },
+    {
+      "name": "Best Day Of My Life",
+      "artist": "American Authors"
+    },
+    {
+      "name": "Hakuna Matata",
+      "artist": "Nathan Lane"
+    },
+    {
+      "name": "Walking On Sunshine",
+      "artist": "Katrina & The Waves"
+    },
+    {
+      "name": "Everything Is AWESOME!!! (feat. The Lonely Island)",
+      "artist": "Tegan and Sara"
+    },
+    {
+      "name": "Who Let The Dogs Out",
+      "artist": "Baha Men"
+    },
+    {
+      "name": "I Gotta Feeling",
+      "artist": "Black Eyed Peas"
+    },
+    {
+      "name": "Good Feeling",
+      "artist": "Flo Rida"
+    },
+    {
+      "name": "Unlonely",
+      "artist": "Jason Mraz"
+    },
+    {
+      "name": "Lovely Day",
+      "artist": "Bill Withers"
+    },
+    {
+      "name": "In the Summertime",
+      "artist": "Mungo Jerry"
+    },
+    {
+      "name": "Don't Worry Be Happy",
+      "artist": "Bobby McFerrin"
+    },
+    {
+      "name": "Celebration",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "name": "What A Wonderful World - Single Version",
+      "artist": "Louis Armstrong"
+    },
+    {
+      "name": "I'm a Believer",
+      "artist": "The Monkees"
+    },
+    {
+      "name": "Smile",
+      "artist": "Uncle Kracker"
+    },
+    {
+      "name": "Here Comes The Sun - Remastered 2009",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Over the Rainbow",
+      "artist": "Israel Kamakawiwo'ole"
+    },
+    {
+      "name": "Great Balls Of Fire",
+      "artist": "Jerry Lee Lewis"
+    },
+    {
+      "name": "Feeling Good",
+      "artist": "Michael Bublé"
+    },
+    {
+      "name": "Don't Stop Me Now - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Sweet Caroline",
+      "artist": "Neil Diamond"
+    },
+    {
+      "name": "Come and Get Your Love - Single Version",
+      "artist": "Redbone"
+    },
+    {
+      "name": "September",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "HandClap",
+      "artist": "Fitz and The Tantrums"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "title": "Oldies",
+  "id": "oldies",
+  "image": "assets/img/playlists/oldies.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/14Ra9bMEbX1kzxtsyTI2qQ",
+  "tracksDataUrl": "src/data/playlists/oldies.json",
+  "tracks": [
+    {
+      "name": "Alley-Oop",
+      "artist": "The Hollywood Argyles"
+    },
+    {
+      "name": "Itsy Bitsy Teenie Weenie Yellow Polka-Dot Bikini",
+      "artist": "Brian Hyland"
+    },
+    {
+      "name": "The Twist",
+      "artist": "Chubby Checker"
+    },
+    {
+      "name": "Georgia on My Mind - Original Master Recording",
+      "artist": "Ray Charles"
+    },
+    {
+      "name": "Blue Moon",
+      "artist": "The Marcels"
+    },
+    {
+      "name": "Runaway - Single Version",
+      "artist": "Del Shannon"
+    },
+    {
+      "name": "Mother-in-Law - 2002 Remaster",
+      "artist": "Ernie K-Doe"
+    },
+    {
+      "name": "Travelin' Man - Remastered",
+      "artist": "Ricky Nelson"
+    },
+    {
+      "name": "Hit the Road Jack",
+      "artist": "Ray Charles"
+    },
+    {
+      "name": "Runaround Sue",
+      "artist": "Dion"
+    },
+    {
+      "name": "Big Bad John",
+      "artist": "Jimmy Dean"
+    },
+    {
+      "name": "Please Mr. Postman - Single Version / Mono",
+      "artist": "The Marvelettes"
+    },
+    {
+      "name": "The Lion Sleeps Tonight (Wimoweh)",
+      "artist": "The Tokens"
+    },
+    {
+      "name": "Duke of Earl",
+      "artist": "Gene Chandler"
+    },
+    {
+      "name": "Hey! Baby - Single Version",
+      "artist": "Bruce Channel"
+    },
+    {
+      "name": "The Locomotion",
+      "artist": "Little Eva"
+    },
+    {
+      "name": "Sherry",
+      "artist": "Frankie Valli & The Four Seasons"
+    },
+    {
+      "name": "Monster Mash",
+      "artist": "Bobby \"Boris\" Pickett"
+    },
+    {
+      "name": "Walk Like a Man",
+      "artist": "Frankie Valli & The Four Seasons"
+    },
+    {
+      "name": "He's So Fine - Remastered 2000",
+      "artist": "The Chiffons"
+    },
+    {
+      "name": "I Will Follow Him",
+      "artist": "Peggy March"
+    },
+    {
+      "name": "If You Wanna Be Happy",
+      "artist": "Jimmy Soul"
+    },
+    {
+      "name": "Surf City",
+      "artist": "Jan & Dean"
+    },
+    {
+      "name": "My Boyfriend's Back",
+      "artist": "The Angels"
+    },
+    {
+      "name": "Hello, Dolly!",
+      "artist": "Louis Armstrong"
+    },
+    {
+      "name": "Chapel Of Love",
+      "artist": "The Dixie Cups"
+    },
+    {
+      "name": "I Get Around",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artist": "The Animals"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artist": "Roy Orbison"
+    },
+    {
+      "name": "Do Wah Diddy Diddy",
+      "artist": "Manfred Mann"
+    },
+    {
+      "name": "My Girl",
+      "artist": "The Temptations"
+    },
+    {
+      "name": "Help Me, Rhonda",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "Mr. Tambourine Man",
+      "artist": "The Byrds"
+    },
+    {
+      "name": "Strangers In The Night",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Wild Thing",
+      "artist": "The Troggs"
+    },
+    {
+      "name": "You Can't Hurry Love",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "Cherish",
+      "artist": "The Association"
+    },
+    {
+      "name": "Reach Out I'll Be There",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "I'm a Believer - 2006 Remaster",
+      "artist": "The Monkees"
+    },
+    {
+      "name": "Groovin'",
+      "artist": "The Young Rascals"
+    },
+    {
+      "name": "Respect",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "name": "All You Need Is Love - Remastered 2015",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "The Letter",
+      "artist": "The Box Tops"
+    },
+    {
+      "name": "Daydream Believer",
+      "artist": "The Monkees"
+    },
+    {
+      "name": "Hello, I Love You",
+      "artist": "The Doors"
+    },
+    {
+      "name": "I Heard It Through The Grapevine",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Crimson & Clover",
+      "artist": "Tommy James & The Shondells"
+    },
+    {
+      "name": "Everyday People",
+      "artist": "Sly & The Family Stone"
+    },
+    {
+      "name": "Sugar, Sugar",
+      "artist": "The Archies"
+    },
+    {
+      "name": "Dream Lover",
+      "artist": "Dion"
+    },
+    {
+      "name": "My Way",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "(Sittin' On) the Dock of the Bay - Mono",
+      "artist": "Otis Redding"
+    },
+    {
+      "name": "At Last",
+      "artist": "Etta James"
+    },
+    {
+      "name": "Mack the Knife",
+      "artist": "Bobby Darin"
+    }
+  ]
+}

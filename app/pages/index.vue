@@ -8,6 +8,9 @@ const games = [
   { name: 'Bingo', icon: 'grid', description: 'Classic number bingo with printable cards.', to: null },
   { name: 'Trivia', icon: 'trivia', description: 'Rounds, questions and a live scoreboard.', to: null },
 ] as const
+
+// Resolved in script: resolveComponent() inside the template can't find NuxtLink.
+const NuxtLink = resolveComponent('NuxtLink')
 </script>
 
 <template>
@@ -15,7 +18,7 @@ const games = [
   <main class="page">
     <div class="grid gap-6 md:grid-cols-3">
       <component
-        :is="g.to ? resolveComponent('NuxtLink') : 'div'"
+        :is="g.to ? NuxtLink : 'div'"
         v-for="g in games"
         :key="g.name"
         :to="g.to ?? undefined"

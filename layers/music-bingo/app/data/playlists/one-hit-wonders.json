@@ -1,0 +1,297 @@
+{
+  "title": "One Hit Wonders",
+  "id": "one-hit-wonders",
+  "image": "assets/img/playlists/one-hit-wonders.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0IlmJOBkrk1cmwzeqIPaRO",
+  "tracksDataUrl": "src/data/playlists/one-hit-wonders.json",
+  "tracks": [
+    {
+      "name": "Funkytown",
+      "artist": "Lipps Inc."
+    },
+    {
+      "name": "Let's Hear It for the Boy - From \"Footloose\" Original Soundtrack",
+      "artist": "Deniece Williams"
+    },
+    {
+      "name": "The Safety Dance",
+      "artist": "Men Without Hats"
+    },
+    {
+      "name": "You Spin Me Round (Like a Record)",
+      "artist": "Dead Or Alive"
+    },
+    {
+      "name": "Whip It",
+      "artist": "DEVO"
+    },
+    {
+      "name": "Our House",
+      "artist": "Madness"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "artist": "Rick Astley"
+    },
+    {
+      "name": "Two Princes",
+      "artist": "Spin Doctors"
+    },
+    {
+      "name": "Axel F",
+      "artist": "Harold Faltermeyer"
+    },
+    {
+      "name": "99 Red Balloons",
+      "artist": "Nena"
+    },
+    {
+      "name": "Video Killed The Radio Star",
+      "artist": "The Buggles"
+    },
+    {
+      "name": "Unbelievable",
+      "artist": "EMF"
+    },
+    {
+      "name": "Groove Is in the Heart",
+      "artist": "Deee-Lite"
+    },
+    {
+      "name": "My Sharona",
+      "artist": "The Knack"
+    },
+    {
+      "name": "Hey Mickey",
+      "artist": "Toni Basil"
+    },
+    {
+      "name": "Come On Eileen",
+      "artist": "Dexys Midnight Runners"
+    },
+    {
+      "name": "Informer",
+      "artist": "Snow"
+    },
+    {
+      "name": "Stacy's Mom",
+      "artist": "Fountains Of Wayne"
+    },
+    {
+      "name": "She's A Beauty - Remastered 1991",
+      "artist": "The Tubes"
+    },
+    {
+      "name": "I'm Too Sexy",
+      "artist": "Right Said Fred"
+    },
+    {
+      "name": "Hey Leonardo (She Likes Me for Me)",
+      "artist": "Blessid Union Of Souls"
+    },
+    {
+      "name": "Amie",
+      "artist": "Pure Prairie League"
+    },
+    {
+      "name": "Macarena - Bayside Boys Remix",
+      "artist": "Los Del Rio"
+    },
+    {
+      "name": "Keep Your Hands to Yourself",
+      "artist": "The Georgia Satellites"
+    },
+    {
+      "name": "Hey There Delilah",
+      "artist": "Plain White T's"
+    },
+    {
+      "name": "Turning Japanese - Non Stop Edit",
+      "artist": "The Vapors"
+    },
+    {
+      "name": "How Bizarre",
+      "artist": "OMC"
+    },
+    {
+      "name": "Got to Be Real",
+      "artist": "Cheryl Lynn"
+    },
+    {
+      "name": "I'm Gonna Be (500 Miles)",
+      "artist": "The Proclaimers"
+    },
+    {
+      "name": "Send Me On My Way",
+      "artist": "Rusted Root"
+    },
+    {
+      "name": "I Can See Clearly Now - Edit",
+      "artist": "Johnny Nash"
+    },
+    {
+      "name": "Baby Come Back",
+      "artist": "Player"
+    },
+    {
+      "name": "One Toke Over the Line",
+      "artist": "Brewer & Shipley"
+    },
+    {
+      "name": "Smokin' in the Boy's Room",
+      "artist": "Brownsville Station"
+    },
+    {
+      "name": "Blinded By The Light",
+      "artist": "Manfred Mann's Earth Band"
+    },
+    {
+      "name": "Rock On",
+      "artist": "David Essex"
+    },
+    {
+      "name": "Mr. Big Stuff",
+      "artist": "Jean Knight"
+    },
+    {
+      "name": "Relax (Come Fighting)",
+      "artist": "Frankie Goes To Hollywood"
+    },
+    {
+      "name": "Bust A Move",
+      "artist": "Young MC"
+    },
+    {
+      "name": "Just a Friend",
+      "artist": "Biz Markie"
+    },
+    {
+      "name": "Rock Me Amadeus",
+      "artist": "Falco"
+    },
+    {
+      "name": "Supersonic",
+      "artist": "J.J. Fad"
+    },
+    {
+      "name": "Da' Butt",
+      "artist": "E.U."
+    },
+    {
+      "name": "She's Like the Wind (feat. Wendy Fraser) - From \"Dirty Dancing\" Soundtrack",
+      "artist": "Patrick Swayze"
+    },
+    {
+      "name": "Rumors",
+      "artist": "Timex Social Club"
+    },
+    {
+      "name": "Oh Yeah - Remastered 2005",
+      "artist": "Yello"
+    },
+    {
+      "name": "Take on Me",
+      "artist": "a-ha"
+    },
+    {
+      "name": "Don't Worry Be Happy",
+      "artist": "Bobby McFerrin"
+    },
+    {
+      "name": "Stray Cat Strut",
+      "artist": "Stray Cats"
+    },
+    {
+      "name": "Kung Fu Fighting",
+      "artist": "Carl Douglas"
+    },
+    {
+      "name": "Spirit In The Sky - Deluxe Edition",
+      "artist": "Norman Greenbaum"
+    },
+    {
+      "name": "My Own Worst Enemy",
+      "artist": "Lit"
+    },
+    {
+      "name": "Talking In Your Sleep (2023 Remaster)",
+      "artist": "The Romantics"
+    },
+    {
+      "name": "Sunny",
+      "artist": "Bobby Hebb"
+    },
+    {
+      "name": "Wooly Bully",
+      "artist": "Sam The Sham & The Pharaohs"
+    },
+    {
+      "name": "Key Largo",
+      "artist": "Bertie Higgins"
+    },
+    {
+      "name": "867-5309 / Jenny",
+      "artist": "Tommy Tutone"
+    },
+    {
+      "name": "Tainted Love",
+      "artist": "Soft Cell"
+    },
+    {
+      "name": "Beds Are Burning - Remastered",
+      "artist": "Midnight Oil"
+    },
+    {
+      "name": "Pac-Man Fever",
+      "artist": "The Pacmen"
+    },
+    {
+      "name": "All Star",
+      "artist": "Smash Mouth"
+    },
+    {
+      "name": "Brandy (You're a Fine Girl)",
+      "artist": "Looking Glass"
+    },
+    {
+      "name": "This Is How We Do It",
+      "artist": "Montell Jordan"
+    },
+    {
+      "name": "Afternoon Delight",
+      "artist": "Starland Vocal Band"
+    },
+    {
+      "name": "Turn the Beat Around",
+      "artist": "Vicki Sue Robinson"
+    },
+    {
+      "name": "The Lion Sleeps Tonight",
+      "artist": "The Tokens"
+    },
+    {
+      "name": "Get Together",
+      "artist": "The Youngbloods"
+    },
+    {
+      "name": "Spooky",
+      "artist": "Classics IV"
+    },
+    {
+      "name": "Play That Funky Music",
+      "artist": "Wild Cherry"
+    },
+    {
+      "name": "Jump Around",
+      "artist": "House Of Pain"
+    },
+    {
+      "name": "Spirit in the Sky",
+      "artist": "Norman Greenbaum"
+    },
+    {
+      "name": "Jump",
+      "artist": "Kris Kross"
+    }
+  ]
+}

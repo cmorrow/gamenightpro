@@ -1,0 +1,253 @@
+{
+  "title": "Classic Rock",
+  "id": "classic-rock",
+  "image": "assets/img/playlists/classic-rock-playlist.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7sN6MzUuWwsBMn3ADkS6Mp",
+  "tracksDataUrl": "src/data/playlists/classic-rock.json",
+  "tracks": [
+    {
+      "name": "The Joker",
+      "artist": "Steve Miller Band"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "artist": "AC/DC"
+    },
+    {
+      "name": "Fire Woman",
+      "artist": "The Cult"
+    },
+    {
+      "name": "Keep Your Hands to Yourself",
+      "artist": "The Georgia Satellites"
+    },
+    {
+      "name": "Can't You See",
+      "artist": "The Marshall Tucker Band"
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "name": "Carry on Wayward Son",
+      "artist": "Kansas"
+    },
+    {
+      "name": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "name": "Whole Lotta Love - 1990 Remaster",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "name": "Another Brick in the Wall, Pt. 2",
+      "artist": "Pink Floyd"
+    },
+    {
+      "name": "Heart of Gold",
+      "artist": "Neil Young"
+    },
+    {
+      "name": "Come Together - Remastered",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Beast Of Burden - Remastered 1994",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "name": "Low Rider",
+      "artist": "War"
+    },
+    {
+      "name": "Ramble On - 1990 Remaster",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "name": "Free Fallin'",
+      "artist": "Tom Petty"
+    },
+    {
+      "name": "Go Your Own Way - Single; 2002 Remaster",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "name": "Some Kind Of Wonderful",
+      "artist": "Grand Funk Railroad"
+    },
+    {
+      "name": "Your Mama Don't Dance",
+      "artist": "Loggins & Messina"
+    },
+    {
+      "name": "Feel Like Makin' Love (Remastered Album Version)",
+      "artist": "Bad Company"
+    },
+    {
+      "name": "Give A Little Bit",
+      "artist": "Supertramp"
+    },
+    {
+      "name": "Hold On Loosely",
+      "artist": "38 Special"
+    },
+    {
+      "name": "More Than a Feeling",
+      "artist": "Boston"
+    },
+    {
+      "name": "One",
+      "artist": "Three Dog Night"
+    },
+    {
+      "name": "Hello, I Love You",
+      "artist": "The Doors"
+    },
+    {
+      "name": "Sweet Emotion",
+      "artist": "Aerosmith"
+    },
+    {
+      "name": "Another One Bites The Dust - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Bang A Gong (Get It On) (Electric Version)",
+      "artist": "T. Rex"
+    },
+    {
+      "name": "Born To Be Wild - Single Version",
+      "artist": "Steppenwolf"
+    },
+    {
+      "name": "Money",
+      "artist": "Pink Floyd"
+    },
+    {
+      "name": "Don't Bring Me Down",
+      "artist": "Electric Light Orchestra"
+    },
+    {
+      "name": "Proud Mary",
+      "artist": "Creedence Clearwater Revival"
+    },
+    {
+      "name": "Fat Bottomed Girls - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Old Time Rock & Roll",
+      "artist": "Bob Seger"
+    },
+    {
+      "name": "Black Betty",
+      "artist": "Ram Jam"
+    },
+    {
+      "name": "Barracuda",
+      "artist": "Heart"
+    },
+    {
+      "name": "Sharp Dressed Man (2008 Remaster)",
+      "artist": "ZZ Top"
+    },
+    {
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "name": "Slow Ride",
+      "artist": "Foghat"
+    },
+    {
+      "name": "Magic Carpet Ride",
+      "artist": "Steppenwolf"
+    },
+    {
+      "name": "Takin' Care Of Business",
+      "artist": "Bachman-Turner Overdrive"
+    },
+    {
+      "name": "The Stroke - Remastered 2010",
+      "artist": "Billy Squier"
+    },
+    {
+      "name": "Listen to the Music",
+      "artist": "The Doobie Brothers"
+    },
+    {
+      "name": "Hot Blooded",
+      "artist": "Foreigner"
+    },
+    {
+      "name": "Wild Thing",
+      "artist": "The Troggs"
+    },
+    {
+      "name": "Angie",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "name": "Free Bird",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "name": "Smoke On The Water - 1997 Digital Remaster",
+      "artist": "Deep Purple"
+    },
+    {
+      "name": "Tom Sawyer",
+      "artist": "Rush"
+    },
+    {
+      "name": "Black Water",
+      "artist": "The Doobie Brothers"
+    },
+    {
+      "name": "Refugee",
+      "artist": "Tom Petty and the Heartbreakers"
+    },
+    {
+      "name": "New Kid in Town - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "Stone in Love",
+      "artist": "Journey"
+    },
+    {
+      "name": "White Room",
+      "artist": "Cream"
+    },
+    {
+      "name": "Take It On the Run",
+      "artist": "REO Speedwagon"
+    },
+    {
+      "name": "Sister Golden Hair",
+      "artist": "America"
+    },
+    {
+      "name": "Any Way You Want It",
+      "artist": "Journey"
+    },
+    {
+      "name": "The Logical Song - Remastered 2010",
+      "artist": "Supertramp"
+    },
+    {
+      "name": "Fly Like An Eagle",
+      "artist": "Steve Miller Band"
+    },
+    {
+      "name": "Call Me",
+      "artist": "Blondie"
+    }
+  ]
+}

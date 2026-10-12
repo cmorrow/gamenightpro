@@ -1,0 +1,181 @@
+{
+  "title": "Country Hits",
+  "id": "country-hits",
+  "image": "assets/img/playlists/country-hits.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3DKFwHzeA9JLGphIL3xCc5",
+  "tracksDataUrl": "src/data/playlists/country-hits.json",
+  "tracks": [
+    {
+      "name": "Knee Deep (feat. Jimmy Buffett)",
+      "artist": "Zac Brown Band"
+    },
+    {
+      "name": "All My Rowdy Friends Are Coming Over Tonight",
+      "artist": "Hank Williams, Jr."
+    },
+    {
+      "name": "The Devil Went Down to Georgia",
+      "artist": "The Charlie Daniels Band"
+    },
+    {
+      "name": "You Never Even Called Me By My Name",
+      "artist": "David Allan Coe"
+    },
+    {
+      "name": "Deeper Than the Holler",
+      "artist": "Randy Travis"
+    },
+    {
+      "name": "Indian Outlaw",
+      "artist": "Tim McGraw"
+    },
+    {
+      "name": "Ocean Front Property",
+      "artist": "George Strait"
+    },
+    {
+      "name": "Cruise",
+      "artist": "Florida Georgia Line"
+    },
+    {
+      "name": "Wagon Wheel",
+      "artist": "Darius Rucker"
+    },
+    {
+      "name": "Chattahoochee",
+      "artist": "Alan Jackson"
+    },
+    {
+      "name": "I Like It, I Love It",
+      "artist": "Tim McGraw"
+    },
+    {
+      "name": "Fishin' in the Dark",
+      "artist": "Nitty Gritty Dirt Band"
+    },
+    {
+      "name": "Mammas, Don't Let Your Babies Grow Up to Be Cowboys",
+      "artist": "Waylon Jennings"
+    },
+    {
+      "name": "Tupelo",
+      "artist": "Jason Isbell and the 400 Unit"
+    },
+    {
+      "name": "Sold (The Grundy County Auction Incident)",
+      "artist": "John Michael Montgomery"
+    },
+    {
+      "name": "Alright",
+      "artist": "Darius Rucker"
+    },
+    {
+      "name": "Drink Along Song",
+      "artist": "Montgomery Gentry"
+    },
+    {
+      "name": "Swingin'",
+      "artist": "John Anderson"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton"
+    },
+    {
+      "name": "The Fireman",
+      "artist": "George Strait"
+    },
+    {
+      "name": "Your Man",
+      "artist": "Josh Turner"
+    },
+    {
+      "name": "Elvira",
+      "artist": "The Oak Ridge Boys"
+    },
+    {
+      "name": "Twinkle, Twinkle Lucky Star",
+      "artist": "Merle Haggard"
+    },
+    {
+      "name": "Boot Scootin' Boogie",
+      "artist": "Brooks & Dunn"
+    },
+    {
+      "name": "I've Been Everywhere",
+      "artist": "Hank Snow"
+    },
+    {
+      "name": "T-R-O-U-B-L-E",
+      "artist": "Travis Tritt"
+    },
+    {
+      "name": "Whiskey Glasses",
+      "artist": "Morgan Wallen"
+    },
+    {
+      "name": "Fix a Drink",
+      "artist": "Chris Janson"
+    },
+    {
+      "name": "Before He Cheats",
+      "artist": "Carrie Underwood"
+    },
+    {
+      "name": "Mama's Broken Heart",
+      "artist": "Miranda Lambert"
+    },
+    {
+      "name": "Fancy",
+      "artist": "Reba McEntire"
+    },
+    {
+      "name": "Forever and Ever, Amen",
+      "artist": "Randy Travis"
+    },
+    {
+      "name": "It's Five O'Clock Somewhere",
+      "artist": "Alan Jackson"
+    },
+    {
+      "name": "Mountain Music",
+      "artist": "Alabama"
+    },
+    {
+      "name": "Heads Carolina, Tails California",
+      "artist": "Jo Dee Messina"
+    },
+    {
+      "name": "Here's a Quarter (Call Someone Who Cares)",
+      "artist": "Travis Tritt"
+    },
+    {
+      "name": "3,2,1",
+      "artist": "Tucker Wetmore"
+    },
+    {
+      "name": "Harper Valley P.T.A.",
+      "artist": "Jeannie C. Riley"
+    },
+    {
+      "name": "Louisiana Saturday Night",
+      "artist": "Mel McDaniel"
+    },
+    {
+      "name": "Family Tradition",
+      "artist": "Hank Williams, Jr."
+    },
+    {
+      "name": "Brand New Man",
+      "artist": "Brooks & Dunn"
+    },
+    {
+      "name": "A Country Boy Can Survive",
+      "artist": "Hank Williams, Jr."
+    },
+    {
+      "name": "Killin' Time",
+      "artist": "Clint Black"
+    }
+  ]
+}

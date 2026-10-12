@@ -1,0 +1,197 @@
+{
+  "title": "Rock of Ages",
+  "id": "rock-of-ages",
+  "image": "assets/img/playlists/rock-songs-though-ages.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7knEgGvUFJh0KreiehGywh",
+  "tracksDataUrl": "src/data/playlists/rock-of-ages.json",
+  "tracks": [
+    {
+      "name": "Highway to Hell",
+      "artist": "AC/DC"
+    },
+    {
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana"
+    },
+    {
+      "name": "Another Brick in the Wall, Pt. 2",
+      "artist": "Pink Floyd"
+    },
+    {
+      "name": "Kryptonite",
+      "artist": "3 Doors Down"
+    },
+    {
+      "name": "Welcome To The Jungle",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "I Was Made For Lovin' You",
+      "artist": "KISS"
+    },
+    {
+      "name": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers"
+    },
+    {
+      "name": "Pour Some Sugar On Me - Remastered 2017",
+      "artist": "Def Leppard"
+    },
+    {
+      "name": "Enter Sandman",
+      "artist": "Metallica"
+    },
+    {
+      "name": "Tom Sawyer",
+      "artist": "Rush"
+    },
+    {
+      "name": "Carry on Wayward Son",
+      "artist": "Kansas"
+    },
+    {
+      "name": "Free Fallin'",
+      "artist": "Tom Petty"
+    },
+    {
+      "name": "Everlong",
+      "artist": "Foo Fighters"
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "All Along the Watchtower",
+      "artist": "Jimi Hendrix"
+    },
+    {
+      "name": "Crazy Train",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "name": "Kickstart My Heart",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Sharp Dressed Man - 2008 Remaster",
+      "artist": "ZZ Top"
+    },
+    {
+      "name": "Zombie",
+      "artist": "The Cranberries"
+    },
+    {
+      "name": "Once Bitten Twice Shy",
+      "artist": "Great White"
+    },
+    {
+      "name": "We're Not Gonna Take It",
+      "artist": "Twisted Sister"
+    },
+    {
+      "name": "Dream On",
+      "artist": "Aerosmith"
+    },
+    {
+      "name": "Old Time Rock & Roll",
+      "artist": "Bob Seger"
+    },
+    {
+      "name": "Mr. Brightside",
+      "artist": "The Killers"
+    },
+    {
+      "name": "Rebel Yell",
+      "artist": "Billy Idol"
+    },
+    {
+      "name": "All The Small Things",
+      "artist": "blink-182"
+    },
+    {
+      "name": "Rock You Like A Hurricane",
+      "artist": "Scorpions"
+    },
+    {
+      "name": "Smoke on the Water",
+      "artist": "Deep Purple"
+    },
+    {
+      "name": "Blitzkrieg Bop - 2016 Remaster",
+      "artist": "Ramones"
+    },
+    {
+      "name": "Round and Round",
+      "artist": "Ratt"
+    },
+    {
+      "name": "I Can't Drive 55",
+      "artist": "Sammy Hagar"
+    },
+    {
+      "name": "Seven Nation Army",
+      "artist": "The White Stripes"
+    },
+    {
+      "name": "Loser",
+      "artist": "Beck"
+    },
+    {
+      "name": "Semi-Charmed Life",
+      "artist": "Third Eye Blind"
+    },
+    {
+      "name": "Another One Bites The Dust - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Walk This Way",
+      "artist": "Aerosmith"
+    },
+    {
+      "name": "Panama - 2015 Remaster",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "Girls, Girls, Girls",
+      "artist": "Mötley Crüe"
+    },
+    {
+      "name": "Purple Haze",
+      "artist": "Jimi Hendrix"
+    },
+    {
+      "name": "Iron Man - 2012 - Remaster",
+      "artist": "Black Sabbath"
+    },
+    {
+      "name": "Buddy Holly",
+      "artist": "Weezer"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "artist": "AC/DC"
+    },
+    {
+      "name": "Paradise City",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "Even Flow",
+      "artist": "Pearl Jam"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "You Give Love A Bad Name",
+      "artist": "Bon Jovi"
+    },
+    {
+      "name": "I Love Rock 'N Roll",
+      "artist": "Joan Jett & the Blackhearts"
+    }
+  ]
+}
