@@ -3,16 +3,15 @@ useHead({ title: 'Billing' })
 const route = useRoute()
 const { fetch: refreshSession } = useUserSession()
 
-// Stripe sends people back here with ?checkout=cs_... (finished) or ?checkout=canceled.
-const checkoutId = typeof route.query.checkout === 'string' && route.query.checkout.startsWith('cs_') ? route.query.checkout : undefined
-const canceled = route.query.checkout === 'canceled'
-
-const { data: billing, error: loadError } = await useFetch('/api/billing/status', { query: { checkout: checkoutId } })
-// The status call may have just activated the subscription; refresh the session so the route guard lets them in.
-if (checkoutId) await refreshSession()
+// Stripe only sends people back here (with ?setup_intent=...) if their bank's check needed a full redirect.
+const returned = typeof route.query.setup_intent === 'string'
+const { data: billing, error: loadError } = await useFetch('/api/billing/status', { query: returned ? { sync: '1' } : {} })
+if (returned) await refreshSession()
 
 const error = ref('')
 const pending = ref(false)
+const subscribed = ref(false)
+const cardForm = ref<{ subscribe: () => Promise<typeof billing.value> }>()
 
 const STATUS_LABEL: Record<BillingStatus, string> = {
   exempt: 'Included with your account',
@@ -53,11 +52,26 @@ const nextStep = computed(() => {
     : 'Subscribe to keep hosting games.'
 })
 
-async function go(endpoint: '/api/billing/checkout' | '/api/billing/portal') {
+async function subscribe() {
   error.value = ''
   pending.value = true
   try {
-    const { url } = await $fetch(endpoint, { method: 'POST' })
+    billing.value = await cardForm.value!.subscribe()
+    subscribed.value = true
+  }
+  catch (err) {
+    error.value = apiErrorMessage(err)
+  }
+  finally {
+    pending.value = false
+  }
+}
+
+async function manage() {
+  error.value = ''
+  pending.value = true
+  try {
+    const { url } = await $fetch('/api/billing/portal', { method: 'POST' })
     await navigateTo(url, { external: true })
   }
   catch (err) {
@@ -71,8 +85,7 @@ async function go(endpoint: '/api/billing/checkout' | '/api/billing/portal') {
   <AppHeader title="Billing" :subtitle="`${PLAN.name}, ${formatPrice(PLAN.priceMonthly)} a month.`" />
   <main class="page">
     <div class="max-w-xl space-y-4">
-      <p v-if="checkoutId && hasAccess" class="alert-success">You're all set. Thanks for subscribing!</p>
-      <p v-else-if="canceled" class="alert-error">Checkout was canceled. You can start again any time.</p>
+      <p v-if="subscribed && hasAccess" class="alert-success">You're all set. Thanks for subscribing!</p>
       <p v-if="loadError || error" class="alert-error">{{ error || apiErrorMessage(loadError) }}</p>
 
       <AppPanel v-if="billing" title="Your plan" :subtitle="STATUS_LABEL[billing.status]">
@@ -81,11 +94,14 @@ async function go(endpoint: '/api/billing/checkout' | '/api/billing/portal') {
         <p v-if="!billing.configured && billing.status !== 'exempt'" class="mt-3 text-sm text-muted">
           Online billing isn't switched on yet. Contact an admin.
         </p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <button v-if="canSubscribe" type="button" class="btn-primary" :disabled="pending" @click="go('/api/billing/checkout')">
-            {{ billing.trialAvailable ? 'Start free trial' : 'Subscribe' }}
+        <form v-if="canSubscribe" class="mt-6 space-y-4" @submit.prevent="subscribe">
+          <BillingCardForm ref="cardForm" />
+          <button type="submit" class="btn-primary w-full" :disabled="pending">
+            {{ pending ? 'Saving…' : billing.trialAvailable ? 'Start free trial' : `Subscribe for ${formatPrice(PLAN.priceMonthly)}/month` }}
           </button>
-          <button v-if="canManage" type="button" class="btn-outline" :disabled="pending" @click="go('/api/billing/portal')">
+        </form>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <button v-if="canManage" type="button" class="btn-outline" :disabled="pending" @click="manage">
             Manage billing
           </button>
           <NuxtLink v-if="hasAccess" to="/" class="btn-ghost">Go to games</NuxtLink>

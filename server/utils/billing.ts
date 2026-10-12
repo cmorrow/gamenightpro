@@ -21,12 +21,16 @@ let client: Stripe | undefined
 
 /** Throws 503 until the Stripe keys are set, so the app runs without billing in dev. */
 export function useStripe() {
-  const { stripe } = useRuntimeConfig()
-  if (!stripe.secretKey || !stripe.priceId) {
+  if (!isBillingConfigured()) {
     throw createError({ statusCode: 503, statusMessage: 'Billing is not set up yet' })
   }
-  client ??= new Stripe(stripe.secretKey)
+  client ??= new Stripe(useRuntimeConfig().stripe.secretKey)
   return client
+}
+
+export function isBillingConfigured() {
+  const { stripe, public: { stripePublishableKey } } = useRuntimeConfig()
+  return !!(stripe.secretKey && stripe.priceId && stripePublishableKey)
 }
 
 export function billingStatusOf(user: UserRecord): BillingStatus {
@@ -121,6 +125,6 @@ export function toPublicBilling(user: UserRecord) {
     currentPeriodEnd: b?.currentPeriodEnd ?? null,
     cancelAtPeriodEnd: b?.cancelAtPeriodEnd ?? false,
     trialAvailable: !b?.hadTrial,
-    configured: !!(useRuntimeConfig().stripe.secretKey && useRuntimeConfig().stripe.priceId),
+    configured: isBillingConfigured(),
   }
 }

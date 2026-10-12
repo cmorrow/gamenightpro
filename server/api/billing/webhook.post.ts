@@ -25,11 +25,7 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: 'Invalid signature' })
   }
 
-  if (stripeEvent.type === 'checkout.session.completed') {
-    const { subscription } = stripeEvent.data.object
-    if (subscription) await syncSubscription(typeof subscription === 'string' ? subscription : subscription.id)
-  }
-  else if (SUBSCRIPTION_EVENTS.has(stripeEvent.type)) {
+  if (SUBSCRIPTION_EVENTS.has(stripeEvent.type)) {
     await syncSubscription((stripeEvent.data.object as Stripe.Subscription).id)
   }
   return { received: true }

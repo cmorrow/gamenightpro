@@ -13,6 +13,7 @@
   "dependencies": {
     "@azure/data-tables": "^13.3.0",
     "@azure/storage-blob": "^12.34.0",
+    "@stripe/stripe-js": "^9.17.0",
     "html-to-image": "^1.11.13",
     "jspdf": "^2.5.2",
     "jszip": "^3.10.2",

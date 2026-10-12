@@ -31,6 +31,10 @@ export default defineNuxtConfig({
     siteUrl: '',
     // Billing is off until these are set (NUXT_STRIPE_SECRET_KEY, NUXT_STRIPE_WEBHOOK_SECRET, NUXT_STRIPE_PRICE_ID).
     stripe: { secretKey: '', webhookSecret: '', priceId: '' },
+    public: {
+      // Safe to expose: Stripe.js needs it in the browser to show the card form (NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY).
+      stripePublishableKey: '',
+    },
     session: {
       name: 'cp-session',
       maxAge: 60 * 60 * 24 * 30, // 30 days, so a host who signed in at home can run an event offline

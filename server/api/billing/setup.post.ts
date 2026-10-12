@@ -6,14 +6,15 @@ const signupSchema = z.object({
   password: passwordSchema,
 })
 
-// Starts Stripe Checkout for the monthly plan. Signed-out visitors send { name, email, password }
-// and get a host account (signed in) first; signed-in users send nothing.
+// Step 1 of the on-site checkout: returns a SetupIntent for the card form to confirm.
+// Signed-out visitors send { name, email, password } and get a host account (signed in) first;
+// signed-in users send nothing, and a retry after a declined card reuses the account.
 export default defineEventHandler(async (event) => {
   const stripe = useStripe() // fail before creating an account if billing isn't configured
-  const config = useRuntimeConfig()
   const session = await getUserSession(event)
 
   let user
+  let created = false
   if (session.user) {
     user = await getUserById(session.user.id)
     if (!user) throw createError({ statusCode: 401, statusMessage: 'Please sign in again' })
@@ -21,6 +22,7 @@ export default defineEventHandler(async (event) => {
   else {
     const body = await readValidatedBody(event, signupSchema.parse)
     user = await createUser({ ...body, role: 'host', mustChangePassword: false })
+    created = true
   }
 
   if (user.billing && hasBillingAccess(user.billing.status)) {
@@ -33,26 +35,16 @@ export default defineEventHandler(async (event) => {
   }
   catch (err) {
     // Without a Stripe customer the new account would look admin-created (free), so undo it.
-    if (!session.user) await deleteUser(user)
+    if (created) await deleteUser(user)
     throw err
   }
-  if (!session.user) await replaceUserSession(event, { user: toSessionUser(user), loggedInAt: Date.now() })
+  if (created) await replaceUserSession(event, { user: toSessionUser(user), loggedInAt: Date.now() })
 
-  const origin = siteOrigin(event)
-  const checkout = await stripe.checkout.sessions.create({
-    mode: 'subscription',
+  const intent = await stripe.setupIntents.create({
     customer,
-    client_reference_id: user.id,
-    line_items: [{ price: config.stripe.priceId, quantity: 1 }],
-    // Collect the card now even during the trial, so billing starts automatically when it ends.
-    payment_method_collection: 'always',
-    allow_promotion_codes: true,
-    subscription_data: {
-      metadata: { userId: user.id },
-      ...(user.billing?.hadTrial ? {} : { trial_period_days: PLAN.trialDays }),
-    },
-    success_url: `${origin}/account/billing?checkout={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${origin}/account/billing?checkout=canceled`,
+    payment_method_types: ['card'],
+    usage: 'off_session', // saved for the automatic charge when the trial ends
+    metadata: { userId: user.id },
   })
-  return { url: checkout.url! }
+  return { clientSecret: intent.client_secret! }
 })
