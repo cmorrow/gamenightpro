@@ -1,0 +1,173 @@
+{
+  "title": "Dance Party",
+  "id": "dance-party",
+  "image": "assets/img/playlists/dance-party.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1M2Al3i0LJyS4Kh1nO7nn8",
+  "tracksDataUrl": "src/data/playlists/dance-party.json",
+  "tracks": [
+    {
+      "name": "We Can't Stop",
+      "artist": "Miley Cyrus"
+    },
+    {
+      "name": "Whoomp! There It Is - Radio Edit",
+      "artist": "Tag Team"
+    },
+    {
+      "name": "C'mon N' Ride It (The Train) - Radio Mix",
+      "artist": "Quad City DJ's"
+    },
+    {
+      "name": "Boogie Shoes - 2004 Remaster",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Like A G6",
+      "artist": "Far East Movement"
+    },
+    {
+      "name": "Look What You Made Me Do",
+      "artist": "Taylor Swift"
+    },
+    {
+      "name": "Cupid Shuffle",
+      "artist": "Cupid"
+    },
+    {
+      "name": "I'm Too Sexy",
+      "artist": "Right Said Fred"
+    },
+    {
+      "name": "All About That Bass",
+      "artist": "Meghan Trainor"
+    },
+    {
+      "name": "Let's Groove",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Wild Thing",
+      "artist": "Tone-Loc"
+    },
+    {
+      "name": "Low (feat. T-Pain)",
+      "artist": "Flo Rida"
+    },
+    {
+      "name": "Hey Ya!",
+      "artist": "Outkast"
+    },
+    {
+      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+      "artist": "Justin Timberlake"
+    },
+    {
+      "name": "Get Down Tonight - 2004 Remaster",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Ymca",
+      "artist": "Village People"
+    },
+    {
+      "name": "Play That Funky Music",
+      "artist": "Wild Cherry"
+    },
+    {
+      "name": "Brick House",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Boogie Wonderland (with The Emotions)",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Pump Up The Jam",
+      "artist": "Technotronic"
+    },
+    {
+      "name": "Cotton Eye Joe",
+      "artist": "Rednex"
+    },
+    {
+      "name": "Celebration",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "name": "Now That We Found Love",
+      "artist": "Heavy D & The Boyz"
+    },
+    {
+      "name": "This Is How We Do It",
+      "artist": "Montell Jordan"
+    },
+    {
+      "name": "Macarena - Bayside Boys Remix",
+      "artist": "Los Del Rio"
+    },
+    {
+      "name": "All Star",
+      "artist": "Smash Mouth"
+    },
+    {
+      "name": "The Humpty Dance",
+      "artist": "Digital Underground"
+    },
+    {
+      "name": "Sexy And I Know It",
+      "artist": "LMFAO"
+    },
+    {
+      "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+      "artist": "Maroon 5"
+    },
+    {
+      "name": "Price Tag",
+      "artist": "Jessie J"
+    },
+    {
+      "name": "Time of Our Lives",
+      "artist": "Pitbull"
+    },
+    {
+      "name": "That's the Way (I Like It) - Original Single Version",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Uptown Funk (feat. Bruno Mars)",
+      "artist": "Mark Ronson"
+    },
+    {
+      "name": "Shake It Off",
+      "artist": "Taylor Swift"
+    },
+    {
+      "name": "Pony",
+      "artist": "Ginuwine"
+    },
+    {
+      "name": "Can't Feel My Face",
+      "artist": "The Weeknd"
+    },
+    {
+      "name": "GDFR (feat. Sage the Gemini & Lookas)",
+      "artist": "Flo Rida"
+    },
+    {
+      "name": "Timber",
+      "artist": "Pitbull"
+    },
+    {
+      "name": "Whatz Up, Whatz Up - A-Town T.V. Track",
+      "artist": "Playa Poncho"
+    },
+    {
+      "name": "Somebody",
+      "artist": "Natalie La Rose"
+    },
+    {
+      "name": "Turn Down for What",
+      "artist": "DJ Snake"
+    }
+  ]
+}

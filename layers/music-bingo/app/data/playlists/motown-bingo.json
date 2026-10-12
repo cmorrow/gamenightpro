@@ -1,0 +1,189 @@
+{
+  "title": "Motown - bingo",
+  "id": "motown-bingo",
+  "image": "assets/img/playlists/motown.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6edNVcYB2KAenvYCaQUybc",
+  "tracksDataUrl": "src/data/playlists/motown-bingo.json",
+  "tracks": [
+    {
+      "name": "My Girl",
+      "artist": "The Temptations"
+    },
+    {
+      "name": "Ain't No Mountain High Enough - Stereo Version",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Ain't Too Proud To Beg",
+      "artist": "The Temptations"
+    },
+    {
+      "name": "I Heard It Through The Grapevine",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Midnight Train to Georgia",
+      "artist": "Gladys Knight & The Pips"
+    },
+    {
+      "name": "Signed, Sealed, Delivered (I'm Yours)",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "name": "Let's Stay Together",
+      "artist": "Al Green"
+    },
+    {
+      "name": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "Bring It On Home to Me",
+      "artist": "Sam Cooke"
+    },
+    {
+      "name": "Lean on Me",
+      "artist": "Bill Withers"
+    },
+    {
+      "name": "Easy",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Papa Was A Rollin' Stone",
+      "artist": "The Temptations"
+    },
+    {
+      "name": "Ooo Baby Baby",
+      "artist": "Smokey Robinson & The Miracles"
+    },
+    {
+      "name": "Love Train",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "Respect",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "name": "Baby I Need Your Loving",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "You Can't Hurry Love",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "I've Got a Woman",
+      "artist": "Ray Charles"
+    },
+    {
+      "name": "Please Mr. Postman - Single Version / Mono",
+      "artist": "The Marvelettes"
+    },
+    {
+      "name": "ABC",
+      "artist": "The Jackson 5"
+    },
+    {
+      "name": "Nightshift",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Dancing In The Street",
+      "artist": "Martha Reeves & The Vandellas"
+    },
+    {
+      "name": "My Guy",
+      "artist": "Mary Wells"
+    },
+    {
+      "name": "I Want You Back",
+      "artist": "The Jackson 5"
+    },
+    {
+      "name": "For Once In My Life",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "name": "(Sittin' On) the Dock of the Bay - Mono",
+      "artist": "Otis Redding"
+    },
+    {
+      "name": "Baby Love",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "Reach Out I'll Be There",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "Hold On, I'm Comin'",
+      "artist": "Sam & Dave"
+    },
+    {
+      "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+      "artist": "Jackie Wilson"
+    },
+    {
+      "name": "Superstition - Single Version",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "name": "You Sexy Thing",
+      "artist": "Hot Chocolate"
+    },
+    {
+      "name": "You've Really Got A Hold On Me",
+      "artist": "Smokey Robinson & The Miracles"
+    },
+    {
+      "name": "I Second That Emotion - Single Version / Mono",
+      "artist": "Smokey Robinson & The Miracles"
+    },
+    {
+      "name": "Baby I Need Your Loving - Single Version",
+      "artist": "Four Tops"
+    },
+    {
+      "name": "Uptight (Everything's Alright) - Single Version",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "name": "Pride And Joy",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Too Busy Thinking About My Baby",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Where Did Our Love Go",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "Stop! In The Name Of Love",
+      "artist": "The Supremes"
+    },
+    {
+      "name": "Ain't Nothing Like The Real Thing",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Jimmy Mack",
+      "artist": "Martha Reeves & The Vandellas"
+    },
+    {
+      "name": "Shop Around",
+      "artist": "The Miracles"
+    },
+    {
+      "name": "Be My Baby",
+      "artist": "The Ronettes"
+    },
+    {
+      "name": "The Way You Do The Things You Do",
+      "artist": "The Temptations"
+    }
+  ]
+}

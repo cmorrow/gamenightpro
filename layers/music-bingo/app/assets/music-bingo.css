@@ -1,0 +1,75 @@
+/* Music bingo styles. Tailwind itself is loaded once by the platform (app/assets/css/main.css). */
+
+.mb-app,
+body:has(.mb-app) {
+  --bg-start: #1d2a4f;
+  --bg-mid: #07122b;
+  --bg-end: #030a1a;
+  --surface-main: rgba(10, 20, 43, 0.92);
+  --surface-card: rgba(7, 15, 32, 0.95);
+  --surface-soft: rgba(15, 23, 42, 0.75);
+  --border-strong: rgba(67, 107, 181, 0.35);
+  --border-soft: rgba(82, 126, 206, 0.4);
+  --text-main: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-strong: #f8fafc;
+  --brand-primary: #2563eb;
+  --brand-secondary: #334155;
+  --brand-success: #1db954;
+  --danger: #dc2626;
+  --radius-lg: 14px;
+  --shadow-glow: 0 18px 40px rgba(2, 6, 23, 0.5);
+
+  --col-b: #2563eb;
+  --col-i: #7c3aed;
+  --col-n: #059669;
+  --col-g: #d97706;
+  --col-o: #dc2626;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Only while a music bingo page is open, so the rest of the platform keeps its own look. */
+body:has(.mb-app) {
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text-main);
+  background: radial-gradient(circle at 15% 20%, var(--bg-start) 0%, var(--bg-mid) 50%, var(--bg-end) 100%);
+}
+
+.mb-app button {
+  cursor: pointer;
+}
+
+.mb-app button:disabled {
+  cursor: not-allowed;
+}
+
+/* ── Shared local-mode button variants ── */
+.local-btn--outline-muted {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #e4e4e7;
+  background: rgba(15, 23, 42, 0.35);
+}
+
+.local-btn--outline-purple {
+  border: 2px solid rgba(168, 85, 247, 0.65);
+  color: #e9d5ff;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(168, 85, 247, 0.15);
+}
+
+.local-btn--gradient {
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  background: linear-gradient(135deg, #6d28d9 0%, #a855f7 45%, #db2777 100%);
+  box-shadow: 0 0 24px rgba(168, 85, 247, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.local-btn-spotify {
+  background: #1db954;
+  box-shadow: 0 4px 14px rgba(29, 185, 84, 0.35);
+}

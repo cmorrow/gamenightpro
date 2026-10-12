@@ -1,0 +1,177 @@
+{
+  "title": "Crooners",
+  "id": "crooners-bingo",
+  "image": "assets/img/playlists/crooners-classics.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3cEqRgsG8nF4czq3to9Nc9",
+  "tracksDataUrl": "src/data/playlists/crooners-bingo.json",
+  "tracks": [
+    {
+      "name": "Unforgettable",
+      "artist": "Nat King Cole"
+    },
+    {
+      "name": "I've Got You Under My Skin - Remastered 1998",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Cheek To Cheek",
+      "artist": "Ella Fitzgerald"
+    },
+    {
+      "name": "Come Fly With Me",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "You're Nobody 'Til Somebody Loves You - Remastered/1997",
+      "artist": "Dean Martin"
+    },
+    {
+      "name": "That's Life",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Luck Be A Lady",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Theme From New York, New York",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Feeling Good",
+      "artist": "Michael Bublé"
+    },
+    {
+      "name": "Summer Wind - 2008 Remastered",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "All Of Me",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Alright, Okay, You Win",
+      "artist": "Count Basie"
+    },
+    {
+      "name": "Mack the Knife",
+      "artist": "Bobby Darin"
+    },
+    {
+      "name": "I'm Sitting On Top Of The World",
+      "artist": "Bobby Darin"
+    },
+    {
+      "name": "Something's Gotta Give - Single Version",
+      "artist": "Sammy Davis Jr."
+    },
+    {
+      "name": "Strangers In The Night",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "L-O-V-E",
+      "artist": "Nat King Cole"
+    },
+    {
+      "name": "Danke Schoen",
+      "artist": "Wayne Newton"
+    },
+    {
+      "name": "The Lady Is A Tramp - Remastered 1998",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Papa Loves Mambo",
+      "artist": "Perry Como"
+    },
+    {
+      "name": "Learnin' The Blues",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "They Can't Take That Away From Me",
+      "artist": "Ella Fitzgerald"
+    },
+    {
+      "name": "Beyond the Sea",
+      "artist": "Bobby Darin"
+    },
+    {
+      "name": "Everybody Loves Somebody",
+      "artist": "Dean Martin"
+    },
+    {
+      "name": "Nice 'n' Easy - Remastered 1999",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "It's Been A Long, Long Time",
+      "artist": "Louis Armstrong"
+    },
+    {
+      "name": "Blue Skies",
+      "artist": "Ella Fitzgerald"
+    },
+    {
+      "name": "Stormy Weather",
+      "artist": "Etta James"
+    },
+    {
+      "name": "(Love Is) The Tender Trap",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Just A Gigolo / I Ain't Got Nobody - Medley / Remastered 2002",
+      "artist": "Louis Prima"
+    },
+    {
+      "name": "Cheek to Cheek",
+      "artist": "Fred Astaire"
+    },
+    {
+      "name": "That's Amore",
+      "artist": "Dean Martin"
+    },
+    {
+      "name": "Blue Moon - 1999 Remastered",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "I Get A Kick Out Of You",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "It's A Lovely Day Today",
+      "artist": "Perry Como"
+    },
+    {
+      "name": "Exactly Like You",
+      "artist": "Bing Crosby"
+    },
+    {
+      "name": "Let's Fall in Love",
+      "artist": "Vic Damone"
+    },
+    {
+      "name": "My Kind Of Girl",
+      "artist": "Buddy Greco"
+    },
+    {
+      "name": "Almost Like Being In Love - Remastered",
+      "artist": "Nat King Cole"
+    },
+    {
+      "name": "Dream a Little Dream of Me (with Paul Weston & His Music From Hollywood)",
+      "artist": "Doris Day"
+    },
+    {
+      "name": "Putting on the Ritz",
+      "artist": "Mel Tormé"
+    },
+    {
+      "name": "On The Street Where You Live - Remastered 1998",
+      "artist": "Dean Martin"
+    }
+  ]
+}

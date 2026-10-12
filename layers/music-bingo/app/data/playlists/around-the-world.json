@@ -1,0 +1,213 @@
+{
+  "title": "Around the World",
+  "id": "around-the-world",
+  "image": "assets/img/playlists/around-the-world.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0fBTsNuIoEKQ8XvIjw4ymu",
+  "tracksDataUrl": "src/data/playlists/around-the-world.json",
+  "tracks": [
+    {
+      "name": "Take Me Home, Country Roads - Original Version",
+      "artist": "John Denver"
+    },
+    {
+      "name": "Theme From New York, New York",
+      "artist": "Frank Sinatra"
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "California Dreamin'",
+      "artist": "The Mamas & The Papas"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "name": "Walking in Memphis",
+      "artist": "Marc Cohn"
+    },
+    {
+      "name": "The Devil Went Down to Georgia",
+      "artist": "The Charlie Daniels Band"
+    },
+    {
+      "name": "Viva Las Vegas",
+      "artist": "Elvis Presley"
+    },
+    {
+      "name": "Midnight Train to Georgia",
+      "artist": "Gladys Knight & The Pips"
+    },
+    {
+      "name": "Miami",
+      "artist": "Will Smith"
+    },
+    {
+      "name": "Sweet Home Chicago",
+      "artist": "The Blues Brothers"
+    },
+    {
+      "name": "Amarillo By Morning",
+      "artist": "George Strait"
+    },
+    {
+      "name": "All My Ex's Live In Texas",
+      "artist": "George Strait"
+    },
+    {
+      "name": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen"
+    },
+    {
+      "name": "Havana (feat. Young Thug)",
+      "artist": "Camila Cabello"
+    },
+    {
+      "name": "Mexico",
+      "artist": "CAKE"
+    },
+    {
+      "name": "Kokomo",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "London Calling",
+      "artist": "The Clash"
+    },
+    {
+      "name": "Paris",
+      "artist": "The Chainsmokers"
+    },
+    {
+      "name": "Budapest",
+      "artist": "George Ezra"
+    },
+    {
+      "name": "Detroit Rock City",
+      "artist": "KISS"
+    },
+    {
+      "name": "China Girl - 2002 Remaster",
+      "artist": "David Bowie"
+    },
+    {
+      "name": "Werewolves of London",
+      "artist": "Warren Zevon"
+    },
+    {
+      "name": "Margaritaville",
+      "artist": "Jimmy Buffett"
+    },
+    {
+      "name": "Rocky Mountain High",
+      "artist": "John Denver"
+    },
+    {
+      "name": "Africa",
+      "artist": "TOTO"
+    },
+    {
+      "name": "Private Idaho",
+      "artist": "The B-52's"
+    },
+    {
+      "name": "Louisiana Saturday Night",
+      "artist": "Mel McDaniel"
+    },
+    {
+      "name": "Carolina in My Mind",
+      "artist": "James Taylor"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton"
+    },
+    {
+      "name": "All My Ex's Live In Texas",
+      "artist": "George Strait"
+    },
+    {
+      "name": "Meet Virginia",
+      "artist": "Train"
+    },
+    {
+      "name": "No Sleep Till Brooklyn",
+      "artist": "Beastie Boys"
+    },
+    {
+      "name": "Blue Moon Of Kentucky",
+      "artist": "Patsy Cline"
+    },
+    {
+      "name": "Folsom Prison Blues",
+      "artist": "Johnny Cash"
+    },
+    {
+      "name": "Walkin’ Back to Georgia",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "I've Been Everywhere",
+      "artist": "Hank Snow"
+    },
+    {
+      "name": "America",
+      "artist": "Neil Diamond"
+    },
+    {
+      "name": "Surfin' U.S.A. - Remastered 2001",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "California Girls",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "Chattahoochee",
+      "artist": "Alan Jackson"
+    },
+    {
+      "name": "El Paso",
+      "artist": "Marty Robbins"
+    },
+    {
+      "name": "Georgia On My Mind",
+      "artist": "Ray Charles"
+    },
+    {
+      "name": "God Bless The U.S.A.",
+      "artist": "Lee Greenwood"
+    },
+    {
+      "name": "Barcelona",
+      "artist": "George Ezra"
+    },
+    {
+      "name": "Boston",
+      "artist": "Augustana"
+    },
+    {
+      "name": "Rocky Top",
+      "artist": "The Osborne Brothers"
+    },
+    {
+      "name": "Down Under",
+      "artist": "Men At Work"
+    },
+    {
+      "name": "Party In The U.S.A.",
+      "artist": "Miley Cyrus"
+    },
+    {
+      "name": "Istanbul (Not Constantinople)",
+      "artist": "They Might Be Giants"
+    },
+    {
+      "name": "THE LOVE BOAT - Theme from the Television Series",
+      "artist": "Dominik Hauser"
+    }
+  ]
+}

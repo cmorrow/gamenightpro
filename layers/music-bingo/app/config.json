@@ -1,0 +1,46 @@
+{
+  "playlists": [
+    {
+      "title": "80s Hits",
+      "id": "80s-hits",
+      "image": "assets/img/playlists/80s-Hits.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/00APhQaSyhJrSkiURhMxwN?si=06ed654dcb6144a5"
+    },
+    {
+      "title": "Rock Songs Through the Ages",
+      "id": "rock-of-ages",
+      "image": "assets/img/playlists/rock-songs-though-ages.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7knEgGvUFJh0KreiehGywh?si=c85b31539ffc4fe3"
+    },
+    {
+      "title": "Top Billboard Hits",
+      "id": "billboard-hits-of-all-time",
+      "image": "assets/img/playlists/billboard-hits-of-all-time.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0p6PwfrlD06grFtlkV00A3?si=6c0a7b15306845b6"
+    },
+    {
+      "title": "All the Feels",
+      "id": "all-the-feels",
+      "image": "assets/img/playlists/all-the-feels.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2lhe2RrF17iQHcwzrxwIVc?si=635b755ed3a54386"
+    },
+    {
+      "title": "Dance Party",
+      "id": "dance-party",
+      "image": "assets/img/playlists/dance-party.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1M2Al3i0LJyS4Kh1nO7nn8?si=9adec3b1b4274d78"
+    },
+    {
+      "title": "Theme Songs",
+      "id": "theme-songs",
+      "image": "assets/img/playlists/theme-songs.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/32elr4hQynIqFx3nS2WKqp?si=65d4576d367547f8"
+    },
+    {
+      "title": "Country Hits",
+      "id": "country-hits",
+      "image": "assets/img/playlists/country-hits.PNG",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3DKFwHzeA9JLGphIL3xCc5?si=f625bc5dd86f42fd"
+    }
+  ]
+}

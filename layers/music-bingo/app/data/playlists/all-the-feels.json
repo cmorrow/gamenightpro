@@ -1,0 +1,459 @@
+{
+  "title": "All the Feels",
+  "id": "all-the-feels",
+  "image": "assets/img/playlists/all-the-feels.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2lhe2RrF17iQHcwzrxwIVc",
+  "tracksDataUrl": "src/data/playlists/all-the-feels.json",
+  "tracks": [
+    {
+      "name": "Open Arms",
+      "artist": "Journey",
+      "originalName": "Open Arms",
+      "originalArtist": "Journey"
+    },
+    {
+      "name": "Hello",
+      "artist": "Lionel Richie",
+      "originalName": "Hello",
+      "originalArtist": "Lionel Richie"
+    },
+    {
+      "name": "Sara Smile",
+      "artist": "Daryl Hall & John Oates",
+      "originalName": "Sara Smile",
+      "originalArtist": "Daryl Hall & John Oates"
+    },
+    {
+      "name": "Hopelessly Devoted To You",
+      "artist": "Olivia Newton-John",
+      "originalName": "Hopelessly Devoted To You - From “Grease” Soundtrack",
+      "originalArtist": "Olivia Newton-John"
+    },
+    {
+      "name": "You Are So Beautiful",
+      "artist": "Joe Cocker",
+      "originalName": "You Are So Beautiful",
+      "originalArtist": "Joe Cocker"
+    },
+    {
+      "name": "Saving All My Love for You",
+      "artist": "Whitney Houston",
+      "originalName": "Saving All My Love for You",
+      "originalArtist": "Whitney Houston"
+    },
+    {
+      "name": "On The Wings Of Love",
+      "artist": "Jeffrey Osborne",
+      "originalName": "On The Wings Of Love",
+      "originalArtist": "Jeffrey Osborne"
+    },
+    {
+      "name": "Your Song",
+      "artist": "Elton John",
+      "originalName": "Your Song",
+      "originalArtist": "Elton John"
+    },
+    {
+      "name": "If I Ain't Got You",
+      "artist": "Alicia Keys",
+      "originalName": "If I Ain't Got You",
+      "originalArtist": "Alicia Keys"
+    },
+    {
+      "name": "Unchained Melody",
+      "artist": "The Righteous Brothers",
+      "originalName": "Unchained Melody",
+      "originalArtist": "The Righteous Brothers"
+    },
+    {
+      "name": "All of Me",
+      "artist": "John Legend",
+      "originalName": "All of Me",
+      "originalArtist": "John Legend"
+    },
+    {
+      "name": "Stand By Me",
+      "artist": "Ben E. King",
+      "originalName": "Stand By Me",
+      "originalArtist": "Ben E. King"
+    },
+    {
+      "name": "At Last",
+      "artist": "Etta James",
+      "originalName": "At Last",
+      "originalArtist": "Etta James"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "originalName": "Tennessee Whiskey",
+      "originalArtist": "Chris Stapleton"
+    },
+    {
+      "name": "Let's Stay Together",
+      "artist": "Al Green",
+      "originalName": "Let's Stay Together",
+      "originalArtist": "Al Green"
+    },
+    {
+      "name": "I Try",
+      "artist": "Macy Gray",
+      "originalName": "I Try",
+      "originalArtist": "Macy Gray"
+    },
+    {
+      "name": "I'm Yours",
+      "artist": "Jason Mraz",
+      "originalName": "I'm Yours",
+      "originalArtist": "Jason Mraz"
+    },
+    {
+      "name": "My Girl",
+      "artist": "The Temptations",
+      "originalName": "My Girl",
+      "originalArtist": "The Temptations"
+    },
+    {
+      "name": "L-O-V-E",
+      "artist": "Nat King Cole",
+      "originalName": "L-O-V-E",
+      "originalArtist": "Nat King Cole"
+    },
+    {
+      "name": "Kiss Me",
+      "artist": "Sixpence None The Richer",
+      "originalName": "Kiss Me",
+      "originalArtist": "Sixpence None The Richer"
+    },
+    {
+      "name": "I Don't Want to Miss a Thing",
+      "artist": "Aerosmith",
+      "originalName": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+      "originalArtist": "Aerosmith"
+    },
+    {
+      "name": "Nothing Compares 2 U",
+      "artist": "Sinéad O'Connor",
+      "originalName": "Nothing Compares 2 U",
+      "originalArtist": "Sinéad O'Connor"
+    },
+    {
+      "name": "Wonderful Tonight",
+      "artist": "Eric Clapton",
+      "originalName": "Wonderful Tonight",
+      "originalArtist": "Eric Clapton"
+    },
+    {
+      "name": "Careless Whisper",
+      "artist": "George Michael",
+      "originalName": "Careless Whisper",
+      "originalArtist": "George Michael"
+    },
+    {
+      "name": "Forget You",
+      "artist": "CeeLo Green",
+      "originalName": "Forget You",
+      "originalArtist": "CeeLo Green"
+    },
+    {
+      "name": "Love Yourself",
+      "artist": "Justin Bieber",
+      "originalName": "Love Yourself",
+      "originalArtist": "Justin Bieber"
+    },
+    {
+      "name": "Grenade",
+      "artist": "Bruno Mars",
+      "originalName": "Grenade",
+      "originalArtist": "Bruno Mars"
+    },
+    {
+      "name": "Heartbreak Hotel",
+      "artist": "Elvis Presley",
+      "originalName": "Heartbreak Hotel",
+      "originalArtist": "Elvis Presley"
+    },
+    {
+      "name": "Love Story",
+      "artist": "Taylor Swift",
+      "originalName": "Love Story",
+      "originalArtist": "Taylor Swift"
+    },
+    {
+      "name": "All I Have to Do Is Dream",
+      "artist": "The Everly Brothers",
+      "originalName": "All I Have to Do Is Dream",
+      "originalArtist": "The Everly Brothers"
+    },
+    {
+      "name": "This Love",
+      "artist": "Maroon 5",
+      "originalName": "This Love",
+      "originalArtist": "Maroon 5"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artist": "Roy Orbison",
+      "originalName": "Oh, Pretty Woman",
+      "originalArtist": "Roy Orbison"
+    },
+    {
+      "name": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "originalName": "(I Can't Get No) Satisfaction - Mono",
+      "originalArtist": "The Rolling Stones"
+    },
+    {
+      "name": "Three Times A Lady",
+      "artist": "Commodores",
+      "originalName": "Three Times A Lady",
+      "originalArtist": "Commodores"
+    },
+    {
+      "name": "It's Only Make Believe",
+      "artist": "Conway Twitty",
+      "originalName": "It's Only Make Believe - Single Version",
+      "originalArtist": "Conway Twitty"
+    },
+    {
+      "name": "To Know Him Is To Love Him",
+      "artist": "The Teddy Bears",
+      "originalName": "To Know Him Is To Love Him",
+      "originalArtist": "The Teddy Bears"
+    },
+    {
+      "name": "Venus",
+      "artist": "Frankie Avalon",
+      "originalName": "Venus",
+      "originalArtist": "Frankie Avalon"
+    },
+    {
+      "name": "Come Softly To Me",
+      "artist": "The Fleetwoods",
+      "originalName": "Come Softly To Me",
+      "originalArtist": "The Fleetwoods"
+    },
+    {
+      "name": "Cathy's Clown",
+      "artist": "The Everly Brothers",
+      "originalName": "Cathy's Clown",
+      "originalArtist": "The Everly Brothers"
+    },
+    {
+      "name": "Save the Last Dance for Me",
+      "artist": "The Drifters",
+      "originalName": "Save the Last Dance for Me",
+      "originalArtist": "The Drifters"
+    },
+    {
+      "name": "Stay",
+      "artist": "Maurice Williams",
+      "originalName": "Stay",
+      "originalArtist": "Maurice Williams"
+    },
+    {
+      "name": "It's My Party",
+      "artist": "Lesley Gore",
+      "originalName": "It's My Party",
+      "originalArtist": "Lesley Gore"
+    },
+    {
+      "name": "So Much In Love",
+      "artist": "The Tymes",
+      "originalName": "So Much In Love",
+      "originalArtist": "The Tymes"
+    },
+    {
+      "name": "You've Lost That Lovin' Feelin'",
+      "artist": "The Righteous Brothers",
+      "originalName": "You've Lost That Lovin' Feelin' - Single Version",
+      "originalArtist": "The Righteous Brothers"
+    },
+    {
+      "name": "These Boots Are Made for Walkin'",
+      "artist": "Nancy Sinatra",
+      "originalName": "These Boots Are Made for Walkin'",
+      "originalArtist": "Nancy Sinatra"
+    },
+    {
+      "name": "When a Man Loves a Woman",
+      "artist": "Percy Sledge",
+      "originalName": "When a Man Loves a Woman",
+      "originalArtist": "Percy Sledge"
+    },
+    {
+      "name": "Hanky Panky",
+      "artist": "Tommy James & The Shondells",
+      "originalName": "Hanky Panky - Single Version",
+      "originalArtist": "Tommy James & The Shondells"
+    },
+    {
+      "name": "Light My Fire",
+      "artist": "The Doors",
+      "originalName": "Light My Fire",
+      "originalArtist": "The Doors"
+    },
+    {
+      "name": "Easy",
+      "artist": "Commodores",
+      "originalName": "Easy",
+      "originalArtist": "Commodores"
+    },
+    {
+      "name": "How Deep Is Your Love",
+      "artist": "Bee Gees",
+      "originalName": "How Deep Is Your Love",
+      "originalArtist": "Bee Gees"
+    },
+    {
+      "name": "Let's Get It On",
+      "artist": "Marvin Gaye",
+      "originalName": "Let's Get It On",
+      "originalArtist": "Marvin Gaye"
+    },
+    {
+      "name": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "originalName": "Ain't No Sunshine",
+      "originalArtist": "Bill Withers"
+    },
+    {
+      "name": "It's Now or Never",
+      "artist": "Elvis Presley",
+      "originalName": "It's Now or Never",
+      "originalArtist": "Elvis Presley"
+    },
+    {
+      "name": "These Arms of Mine",
+      "artist": "Otis Redding",
+      "originalName": "These Arms of Mine",
+      "originalArtist": "Otis Redding"
+    },
+    {
+      "name": "Dive",
+      "artist": "Ed Sheeran",
+      "originalName": "Dive",
+      "originalArtist": "Ed Sheeran"
+    },
+    {
+      "name": "Collide",
+      "artist": "Howie Day",
+      "originalName": "Collide",
+      "originalArtist": "Howie Day"
+    },
+    {
+      "name": "More Than Words",
+      "artist": "Extreme",
+      "originalName": "More Than Words",
+      "originalArtist": "Extreme"
+    },
+    {
+      "name": "You Are So Beautiful",
+      "artist": "Joe Cocker",
+      "originalName": "You Are So Beautiful",
+      "originalArtist": "Joe Cocker"
+    },
+    {
+      "name": "I'm Yours",
+      "artist": "Jason Mraz",
+      "originalName": "I'm Yours",
+      "originalArtist": "Jason Mraz"
+    },
+    {
+      "name": "Fallin'",
+      "artist": "Alicia Keys",
+      "originalName": "Fallin'",
+      "originalArtist": "Alicia Keys"
+    },
+    {
+      "name": "Can You Feel the Love Tonight",
+      "artist": "Elton John",
+      "originalName": "Can You Feel the Love Tonight - End Title",
+      "originalArtist": "Elton John"
+    },
+    {
+      "name": "Take My Breath Away",
+      "artist": "Berlin",
+      "originalName": "Take My Breath Away",
+      "originalArtist": "Berlin"
+    },
+    {
+      "name": "I'll Be",
+      "artist": "Edwin McCain",
+      "originalName": "I'll Be",
+      "originalArtist": "Edwin McCain"
+    },
+    {
+      "name": "Best of My Love",
+      "artist": "The Emotions",
+      "originalName": "Best of My Love",
+      "originalArtist": "The Emotions"
+    },
+    {
+      "name": "Up Where We Belong",
+      "artist": "Joe Cocker",
+      "originalName": "Up Where We Belong",
+      "originalArtist": "Joe Cocker"
+    },
+    {
+      "name": "Night Time Is the Right Time",
+      "artist": "Ray Charles",
+      "originalName": "Night Time Is the Right Time",
+      "originalArtist": "Ray Charles"
+    },
+    {
+      "name": "Maybe I’m Amazed",
+      "artist": "Paul McCartney",
+      "originalName": "Maybe I’m Amazed - Remastered 2011",
+      "originalArtist": "Paul McCartney"
+    },
+    {
+      "name": "Go Your Own Way - 2004 Remaster",
+      "artist": "Fleetwood Mac",
+      "originalName": "Go Your Own Way - 2004 Remaster",
+      "originalArtist": "Fleetwood Mac"
+    },
+    {
+      "name": "Someone Like You",
+      "artist": "Adele",
+      "originalName": "Someone Like You",
+      "originalArtist": "Adele"
+    },
+    {
+      "name": "I Will Survive - Single Version",
+      "artist": "Gloria Gaynor",
+      "originalName": "I Will Survive - Single Version",
+      "originalArtist": "Gloria Gaynor"
+    },
+    {
+      "name": "I Want You Back",
+      "artist": "The Jackson 5",
+      "originalName": "I Want You Back",
+      "originalArtist": "The Jackson 5"
+    },
+    {
+      "name": "I Fall To Pieces - Single Version",
+      "artist": "Patsy Cline",
+      "originalName": "I Fall To Pieces - Single Version",
+      "originalArtist": "Patsy Cline"
+    },
+    {
+      "name": "Lose Control",
+      "artist": "Teddy Swims",
+      "originalName": "Lose Control",
+      "originalArtist": "Teddy Swims"
+    },
+    {
+      "name": "We Are Never Ever Getting Back Together",
+      "artist": "Taylor Swift",
+      "originalName": "We Are Never Ever Getting Back Together",
+      "originalArtist": "Taylor Swift"
+    },
+    {
+      "name": "Rolling in the Deep",
+      "artist": "Adele",
+      "originalName": "Rolling in the Deep",
+      "originalArtist": "Adele"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Movie Soundtracks",
+  "id": "movie-soundtracks-bingo",
+  "image": "assets/img/playlists/movie-soundtrack.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3yI0KfIiuI4nZvx8UqgBmb",
+  "tracksDataUrl": "src/data/playlists/movie-soundtracks-bingo.json",
+  "tracks": [
+    {
+      "name": "The Power Of Love",
+      "artist": "Huey Lewis & The News"
+    },
+    {
+      "name": "Eye of the Tiger",
+      "artist": "Survivor"
+    },
+    {
+      "name": "Don't You (Forget About Me)",
+      "artist": "Simple Minds"
+    },
+    {
+      "name": "Unchained Melody",
+      "artist": "The Righteous Brothers"
+    },
+    {
+      "name": "Old Time Rock & Roll",
+      "artist": "Bob Seger"
+    },
+    {
+      "name": "Footloose",
+      "artist": "Kenny Loggins"
+    },
+    {
+      "name": "Ghostbusters",
+      "artist": "Ray Parker Jr."
+    },
+    {
+      "name": "You're The One That I Want - From “Grease”",
+      "artist": "John Travolta"
+    },
+    {
+      "name": "I Got You Babe",
+      "artist": "Sonny & Cher"
+    },
+    {
+      "name": "Twist And Shout - Remastered 2009",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Everybody Needs Somebody to Love",
+      "artist": "The Blues Brothers"
+    },
+    {
+      "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+      "artist": "Kenny Loggins"
+    },
+    {
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston"
+    },
+    {
+      "name": "Maniac",
+      "artist": "Michael Sembello"
+    },
+    {
+      "name": "Take My Breath Away",
+      "artist": "Berlin"
+    },
+    {
+      "name": "Greased Lightnin' - From “Grease”",
+      "artist": "John Travolta"
+    },
+    {
+      "name": "Flashdance...What a Feeling - Radio Edit",
+      "artist": "Irene Cara"
+    },
+    {
+      "name": "Stayin Alive",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "(I've Had) The Time Of My Life - From \"Dirty Dancing\" Soundtrack",
+      "artist": "Bill Medley"
+    },
+    {
+      "name": "My Heart Will Go On - Love Theme from \"Titanic\"",
+      "artist": "Céline Dion"
+    },
+    {
+      "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+      "artist": "Aerosmith"
+    },
+    {
+      "name": "Kiss from a Rose",
+      "artist": "Seal"
+    },
+    {
+      "name": "Night Fever - From \"Saturday Night Fever\" Soundtrack",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artist": "Roy Orbison"
+    },
+    {
+      "name": "A View to a Kill",
+      "artist": "Duran Duran"
+    },
+    {
+      "name": "Stand By Me",
+      "artist": "Ben E. King"
+    },
+    {
+      "name": "Bohemian Rhapsody - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Mrs. Robinson - From \"The Graduate\" Soundtrack",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "name": "You Never Can Tell",
+      "artist": "Chuck Berry"
+    },
+    {
+      "name": "Jailhouse Rock",
+      "artist": "Elvis Presley"
+    },
+    {
+      "name": "Great Balls Of Fire",
+      "artist": "Jerry Lee Lewis"
+    },
+    {
+      "name": "I'm a Believer",
+      "artist": "The Monkees"
+    },
+    {
+      "name": "You've Got a Friend in Me",
+      "artist": "Randy Newman"
+    },
+    {
+      "name": "Shallow",
+      "artist": "Lady Gaga"
+    },
+    {
+      "name": "The Power Of Love - From “Back To The Future” Soundtrack",
+      "artist": "Huey Lewis & The News"
+    },
+    {
+      "name": "You've Lost That Lovin' Feelin'",
+      "artist": "The Righteous Brothers"
+    },
+    {
+      "name": "Unchained Melody",
+      "artist": "The Righteous Brothers"
+    },
+    {
+      "name": "Bohemian Rhapsody - Remastered 2011",
+      "artist": "Queen"
+    },
+    {
+      "name": "Lady Marmalade - From \"Moulin Rouge\" Soundtrack",
+      "artist": "Christina Aguilera"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "name": "Kiss Me",
+      "artist": "Sixpence None The Richer"
+    },
+    {
+      "name": "We Go Together",
+      "artist": "John Travolta"
+    },
+    {
+      "name": "Johnny B. Goode",
+      "artist": "Chuck Berry"
+    },
+    {
+      "name": "Footloose - From \"Footloose\" Soundtrack",
+      "artist": "Kenny Loggins"
+    },
+    {
+      "name": "9 to 5",
+      "artist": "Dolly Parton"
+    },
+    {
+      "name": "I Say a Little Prayer",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+      "artist": "Kenny Loggins"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Guilty Pleasures",
+  "id": "guilty-pleasure-jukebox",
+  "image": "assets/img/playlists/guilty-pleasures-v1.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2EDOu82VjejchM1ZzHDzGh",
+  "tracksDataUrl": "src/data/playlists/guilty-pleasure-jukebox.json",
+  "tracks": [
+    {
+      "name": "Roxanne - Remastered 2003",
+      "artist": "The Police"
+    },
+    {
+      "name": "That Don't Impress Me Much - International Mix",
+      "artist": "Shania Twain"
+    },
+    {
+      "name": "Wannabe",
+      "artist": "Spice Girls"
+    },
+    {
+      "name": "MMMBop",
+      "artist": "Hanson"
+    },
+    {
+      "name": "I Want It That Way",
+      "artist": "Backstreet Boys"
+    },
+    {
+      "name": "Toxic",
+      "artist": "Britney Spears"
+    },
+    {
+      "name": "No Scrubs",
+      "artist": "TLC"
+    },
+    {
+      "name": "Karma Chameleon - Remastered 2002",
+      "artist": "Culture Club"
+    },
+    {
+      "name": "Genie in a Bottle",
+      "artist": "Christina Aguilera"
+    },
+    {
+      "name": "Rockstar",
+      "artist": "Nickelback"
+    },
+    {
+      "name": "You're The One That I Want - From \"Grease\" Original Motion Picture Soundtrack",
+      "artist": "John Travolta"
+    },
+    {
+      "name": "Mambo No. 5 (A Little Bit of...)",
+      "artist": "Lou Bega"
+    },
+    {
+      "name": "Sk8er Boi",
+      "artist": "Avril Lavigne"
+    },
+    {
+      "name": "Man! I Feel Like A Woman!",
+      "artist": "Shania Twain"
+    },
+    {
+      "name": "Wonderwall",
+      "artist": "Oasis"
+    },
+    {
+      "name": "Oops!...I Did It Again",
+      "artist": "Britney Spears"
+    },
+    {
+      "name": "All About That Bass",
+      "artist": "Meghan Trainor"
+    },
+    {
+      "name": "True",
+      "artist": "Spandau Ballet"
+    },
+    {
+      "name": "Dancing Queen",
+      "artist": "ABBA"
+    },
+    {
+      "name": "Careless Whisper",
+      "artist": "George Michael"
+    },
+    {
+      "name": "Crocodile Rock",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Like a Virgin",
+      "artist": "Madonna"
+    },
+    {
+      "name": "Love Shack",
+      "artist": "The B-52's"
+    },
+    {
+      "name": "Islands In The Stream",
+      "artist": "Kenny Rogers"
+    },
+    {
+      "name": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper"
+    },
+    {
+      "name": "Livin' la Vida Loca",
+      "artist": "Ricky Martin"
+    },
+    {
+      "name": "Barbie Girl",
+      "artist": "Aqua"
+    },
+    {
+      "name": "Gettin' Jiggy Wit It",
+      "artist": "Will Smith"
+    },
+    {
+      "name": "Take on Me",
+      "artist": "a-ha"
+    },
+    {
+      "name": "All I Wanna Do",
+      "artist": "Sheryl Crow"
+    },
+    {
+      "name": "Friday I'm In Love",
+      "artist": "The Cure"
+    },
+    {
+      "name": "Rock Lobster",
+      "artist": "The B-52's"
+    },
+    {
+      "name": "U Can't Touch This",
+      "artist": "MC Hammer"
+    },
+    {
+      "name": "Firework",
+      "artist": "Katy Perry"
+    },
+    {
+      "name": "Baby",
+      "artist": "Justin Bieber"
+    },
+    {
+      "name": "Roar",
+      "artist": "Katy Perry"
+    },
+    {
+      "name": "Call Me Maybe",
+      "artist": "Carly Rae Jepsen"
+    },
+    {
+      "name": "What Makes You Beautiful",
+      "artist": "One Direction"
+    },
+    {
+      "name": "Look What You Made Me Do",
+      "artist": "Taylor Swift"
+    },
+    {
+      "name": "What Is Love - 7\" Mix",
+      "artist": "Haddaway"
+    },
+    {
+      "name": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!"
+    },
+    {
+      "name": "Who Let The Dogs Out",
+      "artist": "Baha Men"
+    },
+    {
+      "name": "Gangnam Style (강남스타일)",
+      "artist": "PSY"
+    },
+    {
+      "name": "Achy Breaky Heart",
+      "artist": "Billy Ray Cyrus"
+    },
+    {
+      "name": "I'm Too Sexy",
+      "artist": "Right Said Fred"
+    },
+    {
+      "name": "Chattahoochee",
+      "artist": "Alan Jackson"
+    },
+    {
+      "name": "Hey Mickey",
+      "artist": "Toni Basil"
+    }
+  ]
+}

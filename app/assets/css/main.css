@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* Feature modules in layers/ use Tailwind classes too. */
+@source "../../../layers";
 
 /*
  * Theme tokens. Dark is the default (matches the Music Bingo look); light is opt-in

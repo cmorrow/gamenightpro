@@ -1,0 +1,165 @@
+{
+  "title": "Songwriter - Bingo",
+  "id": "songwriter",
+  "image": "assets/img/playlists/songwriters.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6M3SFIL3wDhmiaPKMijKmf",
+  "tracksDataUrl": "src/data/playlists/songwriter.json",
+  "tracks": [
+    {
+      "name": "The Sound of Silence",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "name": "Bridge Over Troubled Water",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "name": "Cat's in the Cradle",
+      "artist": "Harry Chapin"
+    },
+    {
+      "name": "Wild World",
+      "artist": "Yusuf / Cat Stevens"
+    },
+    {
+      "name": "Heart of Gold",
+      "artist": "Neil Young"
+    },
+    {
+      "name": "Blowin' in the Wind",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "Candle In The Wind - Remastered 2014",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Blackbird - Remastered 2009",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Landslide",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "name": "How Deep Is Your Love",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "The Best of My Love - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "Rocky Mountain High",
+      "artist": "John Denver"
+    },
+    {
+      "name": "Margaritaville",
+      "artist": "Jimmy Buffett"
+    },
+    {
+      "name": "Time in a Bottle",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "American Pie",
+      "artist": "Don McLean"
+    },
+    {
+      "name": "You've Got a Friend",
+      "artist": "Carole King"
+    },
+    {
+      "name": "I'll Have To Say I Love You In A Song",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "Perfect",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "name": "Fire and Rain",
+      "artist": "James Taylor"
+    },
+    {
+      "name": "I'm Yours",
+      "artist": "Jason Mraz"
+    },
+    {
+      "name": "Operator (That's Not The Way It Feels)",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "All of Me",
+      "artist": "John Legend"
+    },
+    {
+      "name": "Gravity",
+      "artist": "John Mayer"
+    },
+    {
+      "name": "High and Dry",
+      "artist": "Radiohead"
+    },
+    {
+      "name": "My Cherie Amour",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "name": "Guitar Man",
+      "artist": "Bread"
+    },
+    {
+      "name": "Have You Ever Seen The Rain",
+      "artist": "Creedence Clearwater Revival"
+    },
+    {
+      "name": "Slip Slidin' Away",
+      "artist": "Paul Simon"
+    },
+    {
+      "name": "Danny's Song",
+      "artist": "Loggins & Messina"
+    },
+    {
+      "name": "If You Could Read My Mind",
+      "artist": "Gordon Lightfoot"
+    },
+    {
+      "name": "Make It with You",
+      "artist": "Bread"
+    },
+    {
+      "name": "The Times They Are A-Changin'",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "Old Man - 2009 Remaster",
+      "artist": "Neil Young"
+    },
+    {
+      "name": "With A Little Help From My Friends",
+      "artist": "Joe Cocker"
+    },
+    {
+      "name": "Dreams - 2004 Remaster",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "name": "Closer to Fine",
+      "artist": "Indigo Girls"
+    },
+    {
+      "name": "Wild World",
+      "artist": "Yusuf / Cat Stevens"
+    },
+    {
+      "name": "We Didn't Start the Fire",
+      "artist": "Billy Joel"
+    },
+    {
+      "name": "Foolish Games",
+      "artist": "Jewel"
+    }
+  ]
+}

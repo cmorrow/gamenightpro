@@ -1,0 +1,189 @@
+{
+  "title": "70s Hits",
+  "id": "70s-hits",
+  "image": "assets/img/playlists/70s-hits.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7dLrJ31I6o89hTAxV3jMa5",
+  "tracksDataUrl": "src/data/playlists/70s-hits.json",
+  "tracks": [
+    {
+      "name": "Happy Together",
+      "artist": "The Turtles"
+    },
+    {
+      "name": "Hello, I Love You",
+      "artist": "The Doors"
+    },
+    {
+      "name": "ABC",
+      "artist": "The Jackson 5"
+    },
+    {
+      "name": "Mama Told Me (Not To Come) - Single Version",
+      "artist": "Three Dog Night"
+    },
+    {
+      "name": "War",
+      "artist": "Edwin Starr"
+    },
+    {
+      "name": "Cracklin' Rosie",
+      "artist": "Neil Diamond"
+    },
+    {
+      "name": "Me and Bobby McGee",
+      "artist": "Janis Joplin"
+    },
+    {
+      "name": "Just My Imagination (Running Away With Me)",
+      "artist": "The Temptations"
+    },
+    {
+      "name": "Joy To The World",
+      "artist": "Three Dog Night"
+    },
+    {
+      "name": "You've Got a Friend",
+      "artist": "James Taylor"
+    },
+    {
+      "name": "December, 1963 (Oh What a Night!)",
+      "artist": "The Four Seasons"
+    },
+    {
+      "name": "You Sexy Thing",
+      "artist": "Hot Chocolate"
+    },
+    {
+      "name": "Spirit In The Sky - Deluxe Edition",
+      "artist": "Norman Greenbaum"
+    },
+    {
+      "name": "Cat's in the Cradle",
+      "artist": "Harry Chapin"
+    },
+    {
+      "name": "Lean on Me",
+      "artist": "Bill Withers"
+    },
+    {
+      "name": "Brown Eyed Girl",
+      "artist": "Van Morrison"
+    },
+    {
+      "name": "Brandy (You're a Fine Girl)",
+      "artist": "Looking Glass"
+    },
+    {
+      "name": "Don't Bring Me Down",
+      "artist": "Electric Light Orchestra"
+    },
+    {
+      "name": "Let It Whip",
+      "artist": "Dazz Band"
+    },
+    {
+      "name": "Dancing Queen",
+      "artist": "ABBA"
+    },
+    {
+      "name": "Da Ya Think I'm Sexy",
+      "artist": "Rod Stewart"
+    },
+    {
+      "name": "Stayin Alive",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "September",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Gypsy",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "name": "Bennie And The Jets",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Come Sail Away",
+      "artist": "Styx"
+    },
+    {
+      "name": "Don't Stop 'Til You Get Enough",
+      "artist": "Michael Jackson"
+    },
+    {
+      "name": "Take It Easy - 2013 Remaster",
+      "artist": "Eagles"
+    },
+    {
+      "name": "Proud Mary",
+      "artist": "Creedence Clearwater Revival"
+    },
+    {
+      "name": "A Horse With No Name",
+      "artist": "America"
+    },
+    {
+      "name": "I Got a Name - Stereo Version",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "Another Brick in the Wall, Pt. 2",
+      "artist": "Pink Floyd"
+    },
+    {
+      "name": "Jamming",
+      "artist": "Bob Marley & The Wailers"
+    },
+    {
+      "name": "Play That Funky Music",
+      "artist": "Wild Cherry"
+    },
+    {
+      "name": "Easy",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Crocodile Rock",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Boogie Shoes",
+      "artist": "KC & The Sunshine Band"
+    },
+    {
+      "name": "Let's Groove",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "name": "Ring My Bell",
+      "artist": "Anita Ward"
+    },
+    {
+      "name": "Brick House",
+      "artist": "Commodores"
+    },
+    {
+      "name": "Rapper's Delight",
+      "artist": "The Sugarhill Gang"
+    },
+    {
+      "name": "(Don't Fear) The Reaper",
+      "artist": "Blue Öyster Cult"
+    },
+    {
+      "name": "Piano Man",
+      "artist": "Billy Joel"
+    },
+    {
+      "name": "Money",
+      "artist": "Pink Floyd"
+    },
+    {
+      "name": "Beast Of Burden - Remastered 1994",
+      "artist": "The Rolling Stones"
+    }
+  ]
+}

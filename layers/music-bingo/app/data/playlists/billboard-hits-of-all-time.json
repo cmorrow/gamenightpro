@@ -1,0 +1,297 @@
+{
+  "title": "Top Billboard Hits",
+  "id": "billboard-hits-of-all-time",
+  "image": "assets/img/playlists/billboard-hits-of-all-time.PNG",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0p6PwfrlD06grFtlkV00A3",
+  "tracksDataUrl": "src/data/playlists/billboard-hits-of-all-time.json",
+  "tracks": [
+    {
+      "name": "The Twist",
+      "artist": "Chubby Checker"
+    },
+    {
+      "name": "Smooth",
+      "artist": "Santana"
+    },
+    {
+      "name": "Mack the Knife",
+      "artist": "Bobby Darin"
+    },
+    {
+      "name": "I Love Rock 'N Roll",
+      "artist": "Joan Jett & the Blackhearts"
+    },
+    {
+      "name": "Shape of You",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "name": "Macarena",
+      "artist": "Los Del Rio"
+    },
+    {
+      "name": "Yeah!",
+      "artist": "USHER"
+    },
+    {
+      "name": "You Were Meant For Me",
+      "artist": "Jewel"
+    },
+    {
+      "name": "(Everything I Do) I Do It For You",
+      "artist": "Bryan Adams"
+    },
+    {
+      "name": "I'll Make Love To You",
+      "artist": "Boyz II Men"
+    },
+    {
+      "name": "Eye of the Tiger",
+      "artist": "Survivor"
+    },
+    {
+      "name": "Every Breath You Take",
+      "artist": "The Police"
+    },
+    {
+      "name": "Rolling in the Deep",
+      "artist": "Adele"
+    },
+    {
+      "name": "The Battle Of New Orleans",
+      "artist": "Johnny Horton"
+    },
+    {
+      "name": "Let's Get It On",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Queen"
+    },
+    {
+      "name": "Night Fever",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston"
+    },
+    {
+      "name": "Call Me",
+      "artist": "Blondie"
+    },
+    {
+      "name": "Happy",
+      "artist": "Pharrell Williams"
+    },
+    {
+      "name": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "name": "My Sharona",
+      "artist": "The Knack"
+    },
+    {
+      "name": "Poker Face",
+      "artist": "Lady Gaga"
+    },
+    {
+      "name": "Walk Like an Egyptian",
+      "artist": "The Bangles"
+    },
+    {
+      "name": "When Doves Cry",
+      "artist": "Prince"
+    },
+    {
+      "name": "Da Ya Think I'm Sexy?",
+      "artist": "Rod Stewart"
+    },
+    {
+      "name": "Don't Go Breaking My Heart",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Bad, Bad Leroy Brown",
+      "artist": "Jim Croce"
+    },
+    {
+      "name": "Joy To The World",
+      "artist": "Three Dog Night"
+    },
+    {
+      "name": "Hello Dolly",
+      "artist": "Louis Armstrong"
+    },
+    {
+      "name": "Baby Come Back",
+      "artist": "Player"
+    },
+    {
+      "name": "Beat It",
+      "artist": "Michael Jackson"
+    },
+    {
+      "name": "Like a Virgin",
+      "artist": "Madonna"
+    },
+    {
+      "name": "Jump",
+      "artist": "Kris Kross"
+    },
+    {
+      "name": "No Scrubs",
+      "artist": "TLC"
+    },
+    {
+      "name": "Hurts So Good",
+      "artist": "John Mellencamp"
+    },
+    {
+      "name": "American Pie",
+      "artist": "Don McLean"
+    },
+    {
+      "name": "Footloose",
+      "artist": "Kenny Loggins"
+    },
+    {
+      "name": "Straight Up",
+      "artist": "Paula Abdul"
+    },
+    {
+      "name": "Crocodile Rock",
+      "artist": "Elton John"
+    },
+    {
+      "name": "We Are The World",
+      "artist": "U.S.A. For Africa"
+    },
+    {
+      "name": "Poor Little Fool",
+      "artist": "Ricky Nelson"
+    },
+    {
+      "name": "A Big Hunk O' Love",
+      "artist": "Elvis Presley"
+    },
+    {
+      "name": "El Paso",
+      "artist": "Marty Robbins"
+    },
+    {
+      "name": "Hit the Road Jack",
+      "artist": "Ray Charles"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artist": "The Animals"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artist": "Roy Orbison"
+    },
+    {
+      "name": "Do Wah Diddy Diddy",
+      "artist": "Manfred Mann"
+    },
+    {
+      "name": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "name": "I Got You Babe",
+      "artist": "Sonny & Cher"
+    },
+    {
+      "name": "Yesterday",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Turn! Turn! Turn!",
+      "artist": "The Byrds"
+    },
+    {
+      "name": "Wild Thing",
+      "artist": "The Troggs"
+    },
+    {
+      "name": "Respect",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "name": "Light My Fire",
+      "artist": "The Doors"
+    },
+    {
+      "name": "(Sittin' On) the Dock of the Bay",
+      "artist": "Otis Redding"
+    },
+    {
+      "name": "Mrs. Robinson",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "name": "Suspicious Minds",
+      "artist": "Elvis Presley"
+    },
+    {
+      "name": "Come Together",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "Uptown Funk",
+      "artist": "Mark Ronson"
+    },
+    {
+      "name": "I’ll Make Love To You",
+      "artist": "Boyz II Men"
+    },
+    {
+      "name": "Party Rock Anthem",
+      "artist": "LMFAO"
+    },
+    {
+      "name": "Bette Davis Eyes",
+      "artist": "Kim Carnes"
+    },
+    {
+      "name": "How You Remind Me",
+      "artist": "Nickelback"
+    },
+    {
+      "name": "Low",
+      "artist": "Flo Rida"
+    },
+    {
+      "name": "Le Freak",
+      "artist": "CHIC"
+    },
+    {
+      "name": "Endless Love",
+      "artist": "Lionel Richie"
+    },
+    {
+      "name": "Hey Jude",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "I Gotta Feeling",
+      "artist": "Black Eyed Peas"
+    },
+    {
+      "name": "How Do I Live",
+      "artist": "LeAnn Rimes"
+    },
+    {
+      "name": "We Found Love",
+      "artist": "Rihanna"
+    },
+    {
+      "name": "Boom Boom Pow",
+      "artist": "Black Eyed Peas"
+    }
+  ]
+}

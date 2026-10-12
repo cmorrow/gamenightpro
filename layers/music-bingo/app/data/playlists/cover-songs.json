@@ -1,0 +1,177 @@
+{
+  "title": "Cover Songs",
+  "id": "cover-songs",
+  "image": "assets/img/playlists/cover-songs.png",
+  "spotifyPlaylistUrl": "https://open.spotify.com/playlist/733fNMvrxtjOyfv6FwsFmR",
+  "tracksDataUrl": "src/data/playlists/cover-songs.json",
+  "tracks": [
+    {
+      "name": "Angel",
+      "artist": "Shaggy"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "name": "Killing Me Softly With His Song",
+      "artist": "Fugees"
+    },
+    {
+      "name": "Knockin' On Heaven's Door",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "Walk This Way (feat. Aerosmith)",
+      "artist": "Run–D.M.C."
+    },
+    {
+      "name": "Give a Little Bit",
+      "artist": "The Goo Goo Dolls"
+    },
+    {
+      "name": "Last Kiss",
+      "artist": "Pearl Jam"
+    },
+    {
+      "name": "Smooth Criminal",
+      "artist": "Alien Ant Farm"
+    },
+    {
+      "name": "Radioactive",
+      "artist": "Pentatonix"
+    },
+    {
+      "name": "Come Together",
+      "artist": "Gary Clark Jr."
+    },
+    {
+      "name": "I Think We're Alone Now",
+      "artist": "Tiffany"
+    },
+    {
+      "name": "American Woman",
+      "artist": "Lenny Kravitz"
+    },
+    {
+      "name": "Careless Whisper",
+      "artist": "Seether"
+    },
+    {
+      "name": "Over The Rainbow/What A Wonderful World",
+      "artist": "Israel \"IZ\" Kamakawiwoole"
+    },
+    {
+      "name": "The Man Who Sold The World - Live",
+      "artist": "Nirvana"
+    },
+    {
+      "name": "Landslide",
+      "artist": "The Chicks"
+    },
+    {
+      "name": "You Really Got Me - 2015 Remaster",
+      "artist": "Van Halen"
+    },
+    {
+      "name": "The Boys of Summer",
+      "artist": "The Ataris"
+    },
+    {
+      "name": "Son Of A Preacher Man - Live From Madison Square Garden, New York/1969",
+      "artist": "Ike & Tina Turner"
+    },
+    {
+      "name": "Dream On",
+      "artist": "Blacktop Mojo"
+    },
+    {
+      "name": "Me and Bobby McGee",
+      "artist": "Janis Joplin"
+    },
+    {
+      "name": "Stuck on You",
+      "artist": "Dave Fenley"
+    },
+    {
+      "name": "Dive - Recorded At Sound Stage Nashville",
+      "artist": "Luke Combs"
+    },
+    {
+      "name": "Sweet Dreams (Are Made Of This)",
+      "artist": "Marilyn Manson"
+    },
+    {
+      "name": "Word Up!",
+      "artist": "Korn"
+    },
+    {
+      "name": "At Last",
+      "artist": "Etta James"
+    },
+    {
+      "name": "Turn The Page",
+      "artist": "Metallica"
+    },
+    {
+      "name": "Bad Company",
+      "artist": "Five Finger Death Punch"
+    },
+    {
+      "name": "Take on Me",
+      "artist": "Weezer"
+    },
+    {
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston"
+    },
+    {
+      "name": "Manic Monday",
+      "artist": "Billie Joe Armstrong"
+    },
+    {
+      "name": "Take On Me",
+      "artist": "Reel Big Fish"
+    },
+    {
+      "name": "Hard To Handle",
+      "artist": "The Black Crowes"
+    },
+    {
+      "name": "Tiny Dancer - Live at Newport Music Festival, Newport, RI - July 2002",
+      "artist": "Ben Folds"
+    },
+    {
+      "name": "Cars - Remix",
+      "artist": "Fear Factory"
+    },
+    {
+      "name": "With A Little Help From My Friends",
+      "artist": "Joe Cocker"
+    },
+    {
+      "name": "Red Red Wine",
+      "artist": "UB40"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton"
+    },
+    {
+      "name": "Fast Car",
+      "artist": "Luke Combs"
+    },
+    {
+      "name": "Respect",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "name": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper"
+    },
+    {
+      "name": "Nothing Compares 2 U",
+      "artist": "Sinéad O'Connor"
+    }
+  ]
+}
