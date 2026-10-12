@@ -32,7 +32,6 @@ Dark theme by default, matching the Music Bingo app (near-black background, purp
 | Area | Files |
 |---|---|
 | Public pages: landing, features, pricing, trial sign-up | `app/pages/index.vue` (landing when signed out), `features.vue`, `pricing.vue`, `signup.vue`, `app/layouts/marketing.vue`. Copy in `app/data/features.ts`; price and trial length in `shared/utils/plan.ts` |
-| Checkout hook (Stripe goes here) | `server/api/billing/start-trial.post.ts`; returns 503 until `NUXT_STRIPE_SECRET_KEY` and `NUXT_STRIPE_PRICE_ID` are set |
 | Sign in, forced password change, account page | `app/pages/login.vue`, `app/pages/account/*` |
 | Route guard (login required, temp password, admin-only) | `app/middleware/auth.global.ts` |
 | Admin user management (add, reset password, delete) | `app/pages/admin/users.vue`, `server/api/users/*` |

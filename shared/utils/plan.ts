@@ -1,6 +1,5 @@
-// The one paid plan. Public pages and the billing API both read from here, so a price
-// change is one edit. The Stripe Price id is configured on the server (see
-// server/api/billing/start-trial.post.ts); this file only holds what visitors see.
+// The one paid plan as visitors see it on the public pages. What a customer is actually
+// charged comes from the Stripe Price the billing API uses, so change both together.
 export const PLAN = {
   name: 'GameNight Pro',
   priceMonthly: 24.99,

@@ -14,15 +14,20 @@ async function submit() {
   error.value = ''
   pending.value = true
   try {
-    // Checkout hook: the API returns the Stripe Checkout URL once billing is set up.
-    const { checkoutUrl } = await $fetch<{ checkoutUrl: string }>('/api/billing/start-trial', {
+    // Creates the account, signs it in and returns a Stripe Checkout URL (7-day trial, card required).
+    const res = await $fetch<{ url?: string }>('/api/billing/checkout', {
       method: 'POST',
       body: { name: form.name, email: form.email, password: form.password },
     })
-    await navigateTo(checkoutUrl, { external: true })
+    if (typeof res?.url !== 'string') throw createError({ statusCode: 404 })
+    await navigateTo(res.url, { external: true })
   }
   catch (err) {
-    error.value = apiErrorMessage(err)
+    // 404 until the billing API ships; 503 until Stripe keys are configured.
+    const status = (err as { statusCode?: number }).statusCode
+    error.value = status === 404 || status === 503
+      ? 'Online sign-up opens soon. Ask your admin for an account in the meantime.'
+      : apiErrorMessage(err)
   }
   finally {
     pending.value = false

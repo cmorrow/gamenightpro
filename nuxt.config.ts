@@ -27,9 +27,6 @@ export default defineNuxtConfig({
     seedAdminPassword: '',
     storageDriver: '',
     azureStorageConnectionString: '',
-    // Billing (see server/api/billing/start-trial.post.ts). Empty until Stripe is set up.
-    stripeSecretKey: '',
-    stripePriceId: '',
     session: {
       name: 'cp-session',
       maxAge: 60 * 60 * 24 * 30, // 30 days, so a host who signed in at home can run an event offline
