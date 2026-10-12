@@ -39,12 +39,12 @@ const nextStep = computed(() => {
   if (b.status === 'trialing') {
     return b.cancelAtPeriodEnd
       ? `Your trial ends ${formatDate(b.trialEnd)} and will not renew.`
-      : `Your trial ends ${formatDate(b.trialEnd)}. Your card will be charged $${PLAN.monthlyPrice} then, unless you cancel first.`
+      : `Your trial ends ${formatDate(b.trialEnd)}. Your card will be charged ${formatPrice(PLAN.priceMonthly)} then, unless you cancel first.`
   }
   if (b.status === 'active') {
     return b.cancelAtPeriodEnd
       ? `Your plan ends ${formatDate(b.currentPeriodEnd)} and will not renew.`
-      : `Renews ${formatDate(b.currentPeriodEnd)} for $${PLAN.monthlyPrice}.`
+      : `Renews ${formatDate(b.currentPeriodEnd)} for ${formatPrice(PLAN.priceMonthly)}.`
   }
   if (b.status === 'past_due') return 'We could not charge your card. Update it in Manage billing to keep hosting.'
   if (b.status === 'exempt') return 'Your account was set up by an admin and is not billed.'
@@ -68,7 +68,7 @@ async function go(endpoint: '/api/billing/checkout' | '/api/billing/portal') {
 </script>
 
 <template>
-  <AppHeader title="Billing" :subtitle="`${PLAN.name}, $${PLAN.monthlyPrice} a month.`" />
+  <AppHeader title="Billing" :subtitle="`${PLAN.name}, ${formatPrice(PLAN.priceMonthly)} a month.`" />
   <main class="page">
     <div class="max-w-xl space-y-4">
       <p v-if="checkoutId && hasAccess" class="alert-success">You're all set. Thanks for subscribing!</p>

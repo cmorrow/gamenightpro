@@ -60,7 +60,7 @@ Self-serve hosts sign up through Stripe Checkout: $24.99/month with a 7-day free
 | Checkout (new sign-up or existing user), Customer Portal, status | `server/api/billing/checkout.post.ts`, `portal.post.ts`, `status.get.ts` |
 | Webhook (keeps subscription status in sync) | `server/api/billing/webhook.post.ts` → `https://<site>/api/billing/webhook` |
 | Billing page, route guard | `app/pages/account/billing.vue`, `app/middleware/auth.global.ts` |
-| Plan display values, access rules | `shared/utils/billing.ts` |
+| Access rules; plan display values | `shared/utils/billing.ts`; `shared/utils/plan.ts` |
 
 Set `NUXT_STRIPE_SECRET_KEY`, `NUXT_STRIPE_PRICE_ID` and `NUXT_STRIPE_WEBHOOK_SECRET` (and `NUXT_SITE_URL` in Azure). Until they're set, billing is off and nobody is gated. Webhook events to enable: `checkout.session.completed`, `customer.subscription.created`, `.updated`, `.deleted`, `.paused`, `.resumed`.
 

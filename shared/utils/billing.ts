@@ -1,11 +1,3 @@
-// One plan for now. The amount Stripe actually charges comes from NUXT_STRIPE_PRICE_ID;
-// keep these display values in step with that price.
-export const PLAN = {
-  name: 'GameNight Pro',
-  monthlyPrice: 24.99,
-  trialDays: 7,
-} as const
-
 /**
  * `exempt`: accounts an admin created (no Stripe billing). `none`: signed up but never finished checkout.
  * The rest mirror Stripe's subscription statuses.
