@@ -10,20 +10,19 @@ const form = reactive({ name: '', email: '', password: '', agree: false })
 const error = ref('')
 const pending = ref(false)
 
+const card = ref<{ subscribe: (signup?: { name: string, email: string, password: string }) => Promise<unknown> }>()
+
 async function submit() {
   error.value = ''
   pending.value = true
   try {
-    // Creates the account, signs it in and returns a Stripe Checkout URL (7-day trial, card required).
-    const res = await $fetch<{ url?: string }>('/api/billing/checkout', {
-      method: 'POST',
-      body: { name: form.name, email: form.email, password: form.password },
-    })
-    if (typeof res?.url !== 'string') throw createError({ statusCode: 404 })
-    await navigateTo(res.url, { external: true })
+    // Creates the account (signed in), saves the card with Stripe and starts the 7-day trial.
+    // A retry after a declined card reuses the account created on the first try.
+    await card.value!.subscribe({ name: form.name, email: form.email, password: form.password })
+    await navigateTo('/')
   }
   catch (err) {
-    // 404 until the billing API ships; 503 until Stripe keys are configured.
+    // 503 until the Stripe keys are configured.
     const status = (err as { statusCode?: number }).statusCode
     error.value = status === 404 || status === 503
       ? 'Online sign-up opens soon. Ask your admin for an account in the meantime.'
@@ -64,7 +63,7 @@ async function submit() {
           <p id="password-hint" class="mt-1.5 text-xs text-subtle">At least 10 characters.</p>
         </div>
 
-        <CardEntryPlaceholder />
+        <BillingCardForm ref="card" />
 
         <div class="rounded-xl bg-fg/5 px-4 py-3 text-sm">
           <div class="flex justify-between"><span class="text-muted">Due today</span><span class="font-semibold text-fg-strong">{{ formatPrice(0) }}</span></div>
@@ -77,7 +76,7 @@ async function submit() {
         </label>
 
         <p v-if="error" class="alert-error" role="alert">{{ error }}</p>
-        <button class="btn-primary w-full py-3 text-base" type="submit" :disabled="pending">{{ pending ? 'Starting…' : 'Continue to payment' }}</button>
+        <button class="btn-primary w-full py-3 text-base" type="submit" :disabled="pending">{{ pending ? 'Starting your trial…' : 'Start free trial' }}</button>
         <p class="text-center text-sm text-subtle">Already have an account? <NuxtLink to="/login" class="font-semibold text-accent-fg hover:underline">Sign in</NuxtLink></p>
       </form>
     </div>
