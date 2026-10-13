@@ -11,7 +11,9 @@ if (returned) await refreshSession()
 const error = ref('')
 const pending = ref(false)
 const subscribed = ref(false)
-const cardForm = ref<{ subscribe: () => Promise<typeof billing.value> }>()
+const cardForm = ref<{
+  subscribe: () => Promise<typeof billing.value>
+}>()
 
 const STATUS_LABEL: Record<BillingStatus, string> = {
   exempt: 'Included with your account',
@@ -38,12 +40,12 @@ const nextStep = computed(() => {
   if (b.status === 'trialing') {
     return b.cancelAtPeriodEnd
       ? `Your trial ends ${formatDate(b.trialEnd)} and will not renew.`
-      : `Your trial ends ${formatDate(b.trialEnd)}. Your card will be charged ${formatPrice(PLAN.priceMonthly)} then, unless you cancel first.`
+      : `Your trial ends ${formatDate(b.trialEnd)}. Your card will be charged ${formatPrice(b.priceMonthly)} then, unless you cancel first.`
   }
   if (b.status === 'active') {
     return b.cancelAtPeriodEnd
       ? `Your plan ends ${formatDate(b.currentPeriodEnd)} and will not renew.`
-      : `Renews ${formatDate(b.currentPeriodEnd)} for ${formatPrice(PLAN.priceMonthly)}.`
+      : `Renews ${formatDate(b.currentPeriodEnd)} for ${formatPrice(b.priceMonthly)}.`
   }
   if (b.status === 'past_due') return 'We could not charge your card. Update it in Manage billing to keep hosting.'
   if (b.status === 'exempt') return 'Your account was set up by an admin and is not billed.'
@@ -82,7 +84,7 @@ async function manage() {
 </script>
 
 <template>
-  <AppHeader title="Billing" :subtitle="`${PLAN.name}, ${formatPrice(PLAN.priceMonthly)} a month.`" />
+  <AppHeader title="Billing" :subtitle="`${getPlan(billing?.planId).name}, ${formatPrice(billing?.priceMonthly ?? PLAN.priceMonthly)} a month.`" />
   <main class="page">
     <div class="max-w-xl space-y-4">
       <p v-if="subscribed && hasAccess" class="alert-success">You're all set. Thanks for subscribing!</p>
@@ -91,13 +93,16 @@ async function manage() {
       <AppPanel v-if="billing" title="Your plan" :subtitle="STATUS_LABEL[billing.status]">
         <template #icon><AppIcon name="settings" class="h-5 w-5" /></template>
         <p class="text-fg">{{ nextStep }}</p>
+        <p v-if="route.query.upgrade === 'all-games'" class="mt-3 text-sm text-muted">
+          This game isn't included in the available Music Bingo subscription yet.
+        </p>
         <p v-if="!billing.configured && billing.status !== 'exempt'" class="mt-3 text-sm text-muted">
           Online billing isn't switched on yet. Contact an admin.
         </p>
         <form v-if="canSubscribe" class="mt-6 space-y-4" @submit.prevent="subscribe">
           <BillingCardForm ref="cardForm" />
           <button type="submit" class="btn-primary w-full" :disabled="pending">
-            {{ pending ? 'Saving…' : billing.trialAvailable ? 'Start free trial' : `Subscribe for ${formatPrice(PLAN.priceMonthly)}/month` }}
+            {{ pending ? 'Saving…' : billing.trialAvailable ? 'Start free trial' : `Subscribe for ${formatPrice(SINGLE_GAME_PLAN.priceMonthly)}/month` }}
           </button>
         </form>
         <div class="mt-6 flex flex-wrap gap-3">

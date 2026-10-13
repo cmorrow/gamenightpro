@@ -2,32 +2,26 @@
 definePageMeta({ public: true, guestOnly: true, layout: 'marketing' })
 useHead({ title: 'Start your free trial' })
 
-const price = formatPrice(PLAN.priceMonthly)
-const trialEnds = new Date(Date.now() + PLAN.trialDays * 24 * 60 * 60 * 1000)
+const price = formatPrice(SINGLE_GAME_PLAN.priceMonthly)
+const trialEnds = new Date(Date.now() + SINGLE_GAME_PLAN.trialDays * 24 * 60 * 60 * 1000)
   .toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
 
 const form = reactive({ name: '', email: '', password: '', agree: false })
 const error = ref('')
 const pending = ref(false)
+const cardForm = ref<{
+  subscribe: (signup: { name: string, email: string, password: string }) => Promise<unknown>
+}>()
 
 async function submit() {
   error.value = ''
   pending.value = true
   try {
-    // Creates the account, signs it in and returns a Stripe Checkout URL (7-day trial, card required).
-    const res = await $fetch<{ url?: string }>('/api/billing/checkout', {
-      method: 'POST',
-      body: { name: form.name, email: form.email, password: form.password },
-    })
-    if (typeof res?.url !== 'string') throw createError({ statusCode: 404 })
-    await navigateTo(res.url, { external: true })
+    await cardForm.value!.subscribe({ name: form.name, email: form.email, password: form.password })
+    await navigateTo('/')
   }
   catch (err) {
-    // 404 until the billing API ships; 503 until Stripe keys are configured.
-    const status = (err as { statusCode?: number }).statusCode
-    error.value = status === 404 || status === 503
-      ? 'Online sign-up opens soon. Ask your admin for an account in the meantime.'
-      : apiErrorMessage(err)
+    error.value = apiErrorMessage(err)
   }
   finally {
     pending.value = false
@@ -39,11 +33,14 @@ async function submit() {
   <section class="hero-glow">
     <div class="mx-auto grid w-full max-w-[1100px] gap-10 px-4 py-12 md:px-6 md:py-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,440px)] lg:items-start">
       <div class="lg:pt-6">
-        <p class="eyebrow">{{ PLAN.trialDays }}-day free trial</p>
-        <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-fg-strong md:text-5xl">Start hosting free</h1>
-        <p class="mt-4 max-w-lg text-lg text-muted">Full access to Music Bingo, Bingo and Trivia. You won't be charged until {{ trialEnds }}.</p>
+        <p class="eyebrow">{{ SINGLE_GAME_PLAN.trialDays }}-day free trial</p>
+        <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-fg-strong md:text-5xl">Start hosting Music Bingo</h1>
+        <p class="mt-4 max-w-lg text-lg text-muted">
+          Unlimited Music Bingo events, players, and printable cards. No caps or overage fees.
+          You won't be charged until {{ trialEnds }}.
+        </p>
         <ul class="mt-8 space-y-3">
-          <li v-for="item in PLAN.includes" :key="item" class="flex gap-3 text-fg">
+          <li v-for="item in SINGLE_GAME_PLAN.includes" :key="item" class="flex gap-3 text-fg">
             <AppIcon name="check" class="mt-1 h-4 w-4 shrink-0 text-success" />{{ item }}
           </li>
         </ul>
@@ -64,7 +61,7 @@ async function submit() {
           <p id="password-hint" class="mt-1.5 text-xs text-subtle">At least 10 characters.</p>
         </div>
 
-        <CardEntryPlaceholder />
+        <BillingCardForm ref="cardForm" />
 
         <div class="rounded-xl bg-fg/5 px-4 py-3 text-sm">
           <div class="flex justify-between"><span class="text-muted">Due today</span><span class="font-semibold text-fg-strong">{{ formatPrice(0) }}</span></div>
@@ -73,7 +70,7 @@ async function submit() {
 
         <label class="flex gap-3 text-sm text-muted">
           <input v-model="form.agree" type="checkbox" class="mt-0.5 h-4 w-4 shrink-0 accent-[var(--accent)]" required>
-          <span>I understand my card is billed {{ price }} each month after the {{ PLAN.trialDays }}-day trial unless I cancel before it ends.</span>
+          <span>I understand my card is billed {{ price }} each month after the {{ SINGLE_GAME_PLAN.trialDays }}-day trial unless I cancel before it ends.</span>
         </label>
 
         <p v-if="error" class="alert-error" role="alert">{{ error }}</p>

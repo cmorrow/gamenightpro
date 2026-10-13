@@ -3,20 +3,39 @@
 // A user with a temporary password is held on the change-password page until they set their own.
 // A self-serve host without a live subscription (trial ended, canceled, checkout abandoned) is sent to Billing.
 export default defineNuxtRouteMiddleware((to) => {
-  const { loggedIn, user } = useUserSession()
+  const { loggedIn, user } = useUserSession();
 
-  if (loggedIn.value && user.value?.mustChangePassword && to.path !== '/account/password') {
-    return navigateTo('/account/password')
+  if (
+    loggedIn.value &&
+    user.value?.mustChangePassword &&
+    to.path !== "/account/password"
+  ) {
+    return navigateTo("/account/password");
   }
   if (to.meta.public) {
-    if (loggedIn.value && to.meta.guestOnly) return navigateTo('/')
-    return
+    if (loggedIn.value && to.meta.guestOnly) return navigateTo("/");
+    return;
   }
   if (!loggedIn.value) {
-    return navigateTo({ path: '/login', query: { redirect: to.fullPath } })
+    return navigateTo({ path: "/login", query: { redirect: to.fullPath } });
   }
-  if (!hasBillingAccess(user.value?.billingStatus) && !to.path.startsWith('/account')) {
-    return navigateTo('/account/billing')
+  if (
+    !hasBillingAccess(user.value?.billingStatus) &&
+    !to.path.startsWith("/account")
+  ) {
+    return navigateTo("/account/billing");
   }
-  if (to.meta.admin && user.value?.role !== 'admin') return navigateTo('/')
-})
+  if (
+    !hasGameAccess(
+      user.value?.billingPlanId,
+      user.value?.billingGameId ?? undefined,
+      to.path,
+    )
+  ) {
+    return navigateTo({
+      path: "/account/billing",
+      query: { upgrade: "all-games" },
+    });
+  }
+  if (to.meta.admin && user.value?.role !== "admin") return navigateTo("/");
+});

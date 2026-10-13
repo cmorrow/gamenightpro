@@ -40,12 +40,13 @@ export default defineNuxtConfig({
     azureStorageConnectionString: "",
     // Public site URL for Stripe redirects; falls back to the request host.
     siteUrl: "",
-    // Billing is off until these are set (NUXT_STRIPE_SECRET_KEY, NUXT_STRIPE_WEBHOOK_SECRET, NUXT_STRIPE_PRICE_ID).
+    // Current billing uses NUXT_STRIPE_SINGLE_GAME_PRICE_ID; NUXT_STRIPE_PRICE_ID is reserved for future Pro.
     // NUXT_STRIPE_AUTOMATIC_TAX=true turns on Stripe Tax; set it only after Tax is set up in the Stripe Dashboard.
     stripe: {
       secretKey: "",
       webhookSecret: "",
       priceId: "",
+      singleGamePriceId: "",
       automaticTax: false,
     },
     public: {
