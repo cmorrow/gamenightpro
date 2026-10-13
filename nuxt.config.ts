@@ -35,10 +35,25 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     seedAdminEmail: "admin@gamenight.local",
-    seedAdminPassword: "HappyDays101!",
+    seedAdminPassword: "",
     storageDriver: "",
     azureStorageConnectionString: "",
+    // Public site URL for Stripe redirects; falls back to the request host.
+    siteUrl: "",
+    // Billing is off until these are set (NUXT_STRIPE_SECRET_KEY, NUXT_STRIPE_WEBHOOK_SECRET, NUXT_STRIPE_PRICE_ID).
+    // NUXT_STRIPE_AUTOMATIC_TAX=true turns on Stripe Tax; set it only after Tax is set up in the Stripe Dashboard.
+    stripe: {
+      secretKey: "",
+      webhookSecret: "",
+      priceId: "",
+      automaticTax: false,
+    },
+    public: {
+      // Safe to expose: Stripe.js needs it in the browser to show the card form (NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY).
+      stripePublishableKey: "",
+    },
     session: {
+      password: "",
       name: "cp-session",
       maxAge: 60 * 60 * 24 * 30, // 30 days, so a host who signed in at home can run an event offline
     },
