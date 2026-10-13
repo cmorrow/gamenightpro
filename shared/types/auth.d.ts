@@ -1,3 +1,5 @@
+import type { BillingStatus } from '#shared/utils/billing'
+
 export type Role = 'admin' | 'host'
 
 declare module '#auth-utils' {
@@ -8,6 +10,7 @@ declare module '#auth-utils' {
     role: Role
     tenantId: string
     mustChangePassword: boolean
+    billingStatus: BillingStatus
   }
 }
 

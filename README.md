@@ -51,4 +51,27 @@ Not yet: self sign-up, email verification and forgot-password emails (need Azure
    - `NUXT_STORAGE_DRIVER=azure-storage-table`
    - `NUXT_AZURE_STORAGE_CONNECTION_STRING`: from the Storage Account's Access keys
 
+## Billing (Stripe)
+
+Self-serve hosts pay on our own pages: $24.99/month with a 7-day free trial, card collected up front with Stripe's Payment Element (card numbers stay in Stripe's iframe), billed automatically when the trial ends. Admin-created accounts are not billed.
+
+| Piece | Files |
+|---|---|
+| Card form (Payment Element) used by sign-up and Billing | `app/components/BillingCardForm.vue` (`subscribe(signup?)`) |
+| Save card → start subscription | `server/api/billing/setup.post.ts` (SetupIntent; creates the account when signed out), `activate.post.ts` |
+| Status, Customer Portal (update card, invoices, cancel) | `server/api/billing/status.get.ts`, `portal.post.ts` |
+| Webhook (keeps subscription status in sync) | `server/api/billing/webhook.post.ts` → `https://<site>/api/billing/webhook` |
+| Billing page, route guard | `app/pages/account/billing.vue`, `app/middleware/auth.global.ts` |
+| Access rules; plan display values | `shared/utils/billing.ts`; `shared/utils/plan.ts` |
+
+Set `NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `NUXT_STRIPE_SECRET_KEY`, `NUXT_STRIPE_PRICE_ID` and `NUXT_STRIPE_WEBHOOK_SECRET` (and `NUXT_SITE_URL` in Azure). Until the first three are set, billing is off and nobody is gated. Stripe Tax is opt-in with `NUXT_STRIPE_AUTOMATIC_TAX=true` (uses the card's country and postal code). Webhook events to enable: `customer.subscription.created`, `.updated`, `.deleted`, `.paused`, `.resumed`.
+
+Local testing with the Stripe CLI:
+
+```bash
+stripe listen --forward-to localhost:3000/api/billing/webhook   # prints the whsec_ secret for .env
+```
+
+Test card `4242 4242 4242 4242`, any future date, any CVC (`4000 0025 0000 3155` exercises 3-D Secure). Stripe test clocks let you fast-forward past the trial.
+
 Switching to Cosmos DB later only changes `server/plugins/storage.ts`.
