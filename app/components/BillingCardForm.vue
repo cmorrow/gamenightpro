@@ -103,7 +103,7 @@ defineExpose({ subscribe, ready })
   <div>
     <div class="mb-2 flex items-center justify-between">
       <span class="label mb-0">Card details</span>
-      <span class="flex items-center gap-1.5 text-xs text-subtle"><AppIcon name="key" class="h-3.5 w-3.5" />Secured by Stripe</span>
+      <span class="flex items-center gap-1.5 text-xs text-subtle"><AppIcon name="lock" class="h-3.5 w-3.5" />Secured by Stripe</span>
     </div>
     <p v-if="unavailable" class="rounded-xl border border-line px-4 py-3 text-sm text-muted">
       Online payment isn't switched on yet.
