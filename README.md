@@ -1,8 +1,8 @@
-# GameNight Pro
+# Game Host Central
 
 Starter platform for hosting music bingo, bingo and trivia. Nuxt 4 SPA + Nuxt server routes, deployed to Azure Static Web Apps (Free) with the API as SWA managed Functions.
 
-The name is provisional. Rename it in `app/app.config.ts` (`brand.appName`); nothing else hard-codes it.
+The app name is configured in `app/app.config.ts` (`brand.appName`).
 
 ## Run locally
 
